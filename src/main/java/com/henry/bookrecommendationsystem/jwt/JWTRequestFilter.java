@@ -54,8 +54,7 @@ public class JWTRequestFilter extends OncePerRequestFilter {
                     response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
                     OutputStream outputStream = response.getOutputStream();
                     ObjectMapper mapper = new ObjectMapper();
-                    mapper.writeValue(outputStream, new ApiResponse(false,
-                            LocalDateTime.now().toString(), jwtVerificationException.getMessage(), null));
+                    mapper.writeValue(outputStream, new ApiResponse(false, LocalDateTime.now().toString(), jwtVerificationException.getMessage(), null));
                     outputStream.flush();
                 }
             }
