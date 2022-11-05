@@ -5,9 +5,12 @@ import com.henry.bookrecommendationsystem.dto.base.request.RefreshTokenRequest;
 import com.henry.bookrecommendationsystem.dto.base.response.AuthResponse;
 import com.henry.bookrecommendationsystem.jwt.JWTAuthenticationUtil;
 import com.henry.bookrecommendationsystem.service.RefreshTokenService;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
@@ -17,19 +20,31 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-@RequiredArgsConstructor
 public class JWTAuthenticationManagerImpl implements JWTAuthenticationManager {
     private final JWTAuthenticationUtil jwtAuthenticationUtil;
+    private final AuthenticationManager authenticationManager;
     private final RefreshTokenService refreshTokenService;
     @Value("${library.security.jwt.accessToken.expirationMs}")
     private String JWT_ACCESS_TOKEN_EXPIRATION_MS;
     @Value("${library.security.jwt.refreshToken.expirationMs}")
     private String JWT_REFRESH_TOKEN_EXPIRATION_MS;
 
+    public JWTAuthenticationManagerImpl(JWTAuthenticationUtil jwtAuthenticationUtil, @Lazy AuthenticationManager authenticationManager, RefreshTokenService refreshTokenService) {
+        this.jwtAuthenticationUtil = jwtAuthenticationUtil;
+        this.authenticationManager = authenticationManager;
+        this.refreshTokenService = refreshTokenService;
+    }
+
     @Override
     public AuthResponse login(AuthRequest authRequest) {
         log.info("JWTAuthenticationManager: login() called");
-        return new AuthResponse(jwtAuthenticationUtil.generateAccessToken(authRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS), refreshTokenService.createRefreshToken(authRequest.getEmail()).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
+        try {
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getEmail(), authRequest.getPassword()));
+            return new AuthResponse(jwtAuthenticationUtil.generateAccessToken(authRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS),
+                    refreshTokenService.createRefreshToken(authRequest.getEmail()).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
+        } catch (AuthenticationException authenticationException) {
+            throw new RuntimeException("Invalid username or password");
+        }
     }
 
     @Override

@@ -1,8 +1,8 @@
-package com.henry.bookrecommendationsystem.transformer;
+package com.henry.bookrecommendationsystem.transformer.base;
 
 import com.henry.bookrecommendationsystem.dto.base.BaseDto;
-import com.henry.bookrecommendationsystem.entity.BaseEntity;
-import com.henry.bookrecommendationsystem.transformer.mapper.BaseMapper;
+import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
+import com.henry.bookrecommendationsystem.transformer.mapper.base.BaseMapper;
 
 import java.util.List;
 import java.util.stream.Collectors;

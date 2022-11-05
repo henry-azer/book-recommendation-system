@@ -2,12 +2,13 @@ package com.henry.bookrecommendationsystem.transformer;
 
 import com.henry.bookrecommendationsystem.dto.UserDto;
 import com.henry.bookrecommendationsystem.entity.User;
+import com.henry.bookrecommendationsystem.transformer.base.BaseTransformer;
 import com.henry.bookrecommendationsystem.transformer.mapper.UserMapper;
-import lombok.RequiredArgsConstructor;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class UserTransformer implements BaseTransformer<User, UserDto, UserMapper> {
     private final UserMapper userMapper;
 
