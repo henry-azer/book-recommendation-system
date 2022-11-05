@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS user
     age               INT                    NULL,
     gender            CHARACTER VARYING(50)  NULL,
     marital_status    CHARACTER VARYING(50)  NULL,
-    image_url         CHARACTER VARYING(150) NOT NULL,
+    image_url         CHARACTER VARYING(150) NULL,
 
     created_date      TIMESTAMP              NOT NULL,
     modified_date     TIMESTAMP              NOT NULL,
