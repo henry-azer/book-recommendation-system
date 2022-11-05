@@ -3,6 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
+    <include file="db/chengelog/20221102_user-table.sql"/>
     <include file="db/chengelog/20221105_refresh-token-table.sql"/>
 
 </databaseChangeLog>
