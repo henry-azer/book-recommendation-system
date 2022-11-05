@@ -1,5 +1,6 @@
 package com.henry.bookrecommendationsystem.controller;
 
+import com.henry.bookrecommendationsystem.controller.base.BaseController;
 import com.henry.bookrecommendationsystem.dto.UserDto;
 import com.henry.bookrecommendationsystem.dto.base.response.ApiResponse;
 import com.henry.bookrecommendationsystem.service.UserService;
@@ -27,8 +28,8 @@ public class UserController implements BaseController<UserService> {
                 "Request done successfully.", userService.isUserExistsByEmail(email));
     }
 
-    @PostMapping
-    public ApiResponse createUser(@RequestBody UserDto userDto) {
+    @PostMapping("/register")
+    public ApiResponse registerUser(@RequestBody UserDto userDto) {
         return new ApiResponse(true, LocalDateTime.now().toString(),
                 "Request done successfully.", userService.create(userDto));
     }

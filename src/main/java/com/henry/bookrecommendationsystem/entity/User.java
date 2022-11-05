@@ -1,17 +1,21 @@
 package com.henry.bookrecommendationsystem.entity;
 
+import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import com.henry.bookrecommendationsystem.enums.UserGender;
 import com.henry.bookrecommendationsystem.enums.UserMartialStatus;
 import lombok.*;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.Objects;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
@@ -52,4 +56,17 @@ public class User extends BaseEntity {
 
     @Column(name = "image_url")
     private String imageUrl;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
+        User user = (User) o;
+        return id != null && Objects.equals(id, user.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
 }
