@@ -1,9 +1,9 @@
-package com.henry.bookrecommendationsystem.dao;
+package com.henry.bookrecommendationsystem.dao.base;
 
 import com.henry.bookrecommendationsystem.dto.base.pagination.SortingBy;
 import com.henry.bookrecommendationsystem.dto.base.pagination.SortingDirection;
 import com.henry.bookrecommendationsystem.dto.base.request.PaginationRequest;
-import com.henry.bookrecommendationsystem.entity.BaseEntity;
+import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;

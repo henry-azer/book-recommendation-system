@@ -1,7 +1,7 @@
-package com.henry.bookrecommendationsystem.transformer.mapper.configuration;
+package com.henry.bookrecommendationsystem.transformer.mapper.base;
 
 import com.henry.bookrecommendationsystem.dto.base.BaseDto;
-import com.henry.bookrecommendationsystem.entity.BaseEntity;
+import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import org.mapstruct.*;
 
 @MapperConfig(unmappedTargetPolicy = ReportingPolicy.IGNORE,

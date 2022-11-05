@@ -1,11 +1,11 @@
-package com.henry.bookrecommendationsystem.service;
+package com.henry.bookrecommendationsystem.service.base;
 
-import com.henry.bookrecommendationsystem.dao.BaseDao;
+import com.henry.bookrecommendationsystem.dao.base.BaseDao;
 import com.henry.bookrecommendationsystem.dto.base.BaseDto;
 import com.henry.bookrecommendationsystem.dto.base.request.PaginationRequest;
 import com.henry.bookrecommendationsystem.dto.base.response.PaginationResponse;
-import com.henry.bookrecommendationsystem.entity.BaseEntity;
-import com.henry.bookrecommendationsystem.transformer.BaseTransformer;
+import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
+import com.henry.bookrecommendationsystem.transformer.base.BaseTransformer;
 import org.springframework.data.domain.Page;
 
 import javax.persistence.EntityNotFoundException;

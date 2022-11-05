@@ -1,6 +1,8 @@
-package com.henry.bookrecommendationsystem.entity;
+package com.henry.bookrecommendationsystem.entity.base;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.annotation.CreatedBy;
@@ -14,15 +16,12 @@ import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
-@Getter
-@Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 public abstract class BaseEntity {
-
     private static final long serialVersionUID = 1L;
 
     @CreatedDate
@@ -37,11 +36,11 @@ public abstract class BaseEntity {
 
     @CreatedBy
     @Column(name = "created_by")
-    private String createdBy;
+    private String createdBy = "anonymous";
 
     @LastModifiedBy
     @Column(name = "modified_by")
-    private String modifiedBy;
+    private String modifiedBy = "anonymous";
 
     @Column(name = "marked_as_deleted")
     private Boolean markedAsDeleted = false;
