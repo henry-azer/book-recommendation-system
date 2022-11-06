@@ -11,6 +11,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 
+/**
+ * @author Henry Azer
+ * @since 05/11/2022
+ */
 @Slf4j
 @Service
 public class JWTUserDetailsService implements UserDetailsService {

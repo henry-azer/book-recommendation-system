@@ -9,11 +9,11 @@ import java.time.LocalDateTime;
  * @author Henry Azer
  * @since 05/11/2022
  */
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "refresh_token")
 public class RefreshToken {

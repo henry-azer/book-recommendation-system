@@ -16,6 +16,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 public interface BaseDao<Entity extends BaseEntity, Repository extends JpaRepository<Entity, Long>> {
 
     Repository getRepository();

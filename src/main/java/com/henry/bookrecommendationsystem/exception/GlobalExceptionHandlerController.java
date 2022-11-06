@@ -14,6 +14,10 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Objects;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 @Slf4j
 @ControllerAdvice
 public class GlobalExceptionHandlerController extends ResponseEntityExceptionHandler {
