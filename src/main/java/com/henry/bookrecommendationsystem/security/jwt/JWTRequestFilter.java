@@ -1,4 +1,4 @@
-package com.henry.bookrecommendationsystem.jwt;
+package com.henry.bookrecommendationsystem.security.jwt;
 
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.fasterxml.jackson.databind.ObjectMapper;

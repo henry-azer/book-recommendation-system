@@ -1,7 +1,7 @@
 package com.henry.bookrecommendationsystem.security;
 
-import com.henry.bookrecommendationsystem.jwt.JWTAuthenticationEntryPoint;
-import com.henry.bookrecommendationsystem.jwt.JWTRequestFilter;
+import com.henry.bookrecommendationsystem.security.jwt.JWTAuthenticationEntryPoint;
+import com.henry.bookrecommendationsystem.security.jwt.JWTRequestFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

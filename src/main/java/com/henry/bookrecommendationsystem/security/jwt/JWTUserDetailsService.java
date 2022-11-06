@@ -1,4 +1,4 @@
-package com.henry.bookrecommendationsystem.jwt;
+package com.henry.bookrecommendationsystem.security.jwt;
 
 import com.henry.bookrecommendationsystem.dto.UserDto;
 import com.henry.bookrecommendationsystem.service.UserService;
