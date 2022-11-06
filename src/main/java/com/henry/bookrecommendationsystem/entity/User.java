@@ -4,18 +4,19 @@ import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import com.henry.bookrecommendationsystem.enums.UserGender;
 import com.henry.bookrecommendationsystem.enums.UserMartialStatus;
 import lombok.*;
-import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.Objects;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @ToString
-@RequiredArgsConstructor
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
@@ -24,16 +25,16 @@ public class User extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "first_name")
+    @Column(name = "first_name", nullable = false)
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = false)
     private String lastName;
 
-    @Column(name = "email")
+    @Column(name = "email", unique = true, updatable = false, nullable = false)
     private String email;
 
-    @Column(name = "password")
+    @Column(name = "password", nullable = false)
     private String password;
 
     @Column(name = "phone_number")
@@ -56,14 +57,6 @@ public class User extends BaseEntity {
 
     @Column(name = "image_url")
     private String imageUrl;
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        User user = (User) o;
-        return id != null && Objects.equals(id, user.id);
-    }
 
     @Override
     public int hashCode() {

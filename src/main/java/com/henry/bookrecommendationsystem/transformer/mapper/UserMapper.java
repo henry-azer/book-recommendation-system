@@ -8,6 +8,10 @@ import com.henry.bookrecommendationsystem.transformer.mapper.base.GenericMapperC
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 @Mapper(componentModel = "spring", uses = UserTransformer.class,
         injectionStrategy = InjectionStrategy.CONSTRUCTOR, config = GenericMapperConfiguration.class)
 public interface UserMapper extends BaseMapper<User, UserDto> {

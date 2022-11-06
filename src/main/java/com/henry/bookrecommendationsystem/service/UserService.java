@@ -7,6 +7,10 @@ import com.henry.bookrecommendationsystem.entity.User;
 import com.henry.bookrecommendationsystem.service.base.BaseService;
 import com.henry.bookrecommendationsystem.transformer.UserTransformer;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 public interface UserService extends BaseService<User, UserDto, UserDao, UserTransformer> {
     UserDto findUserByEmail(String email);
 

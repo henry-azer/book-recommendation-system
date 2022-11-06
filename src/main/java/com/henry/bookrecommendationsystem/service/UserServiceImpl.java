@@ -14,6 +14,10 @@ import javax.persistence.EntityExistsException;
 import javax.persistence.EntityNotFoundException;
 import java.util.Optional;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 @Slf4j
 @Service
 public class UserServiceImpl implements UserService {
