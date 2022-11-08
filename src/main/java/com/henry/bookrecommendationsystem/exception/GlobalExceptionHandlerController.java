@@ -24,7 +24,7 @@ public class GlobalExceptionHandlerController extends ResponseEntityExceptionHan
 
     @ExceptionHandler(JWTVerificationException.class)
     public ResponseEntity<ApiResponse> handleJWTVerificationException(JWTVerificationException exception) {
-        log.info("GlobalExceptionHandlerController: JWTVerificationException() happened");
+        log.info("GlobalExceptionHandlerController: handleJWTVerificationException() happened");
         return new ResponseEntity<>(new ApiResponse(false, LocalDateTime.now().toString(),
                 exception.getMessage(), null), HttpStatus.valueOf(HttpStatus.BAD_REQUEST.value()));
     }
