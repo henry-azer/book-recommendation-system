@@ -1,4 +1,4 @@
-package com.henry.bookrecommendationsystem.jwt;
+package com.henry.bookrecommendationsystem.security.jwt;
 
 import com.henry.bookrecommendationsystem.dto.UserDto;
 import com.henry.bookrecommendationsystem.service.UserService;
@@ -11,6 +11,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 
+/**
+ * @author Henry Azer
+ * @since 05/11/2022
+ */
 @Slf4j
 @Service
 public class JWTUserDetailsService implements UserDetailsService {

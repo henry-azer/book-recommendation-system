@@ -4,6 +4,10 @@ import com.henry.bookrecommendationsystem.dto.base.BaseDto;
 import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import org.mapstruct.*;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 @MapperConfig(unmappedTargetPolicy = ReportingPolicy.IGNORE,
         mappingInheritanceStrategy = MappingInheritanceStrategy.AUTO_INHERIT_FROM_CONFIG)
 public interface GenericMapperConfiguration {

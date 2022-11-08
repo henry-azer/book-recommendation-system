@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 @Component
 public class UserDaoImpl implements UserDao {
     private final UserRepository userRepository;

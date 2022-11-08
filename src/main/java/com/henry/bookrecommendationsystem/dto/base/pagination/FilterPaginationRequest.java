@@ -5,6 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

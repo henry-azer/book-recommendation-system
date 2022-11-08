@@ -3,17 +3,16 @@ package com.henry.bookrecommendationsystem.entity;
 import lombok.*;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * @author Henry Azer
  * @since 05/11/2022
  */
-@Getter
-@Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "refresh_token")
 public class RefreshToken {
@@ -32,7 +31,7 @@ public class RefreshToken {
     private Long refreshCount;
 
     @Column(name = "expiry_date")
-    private LocalDateTime expiryDate;
+    private Date expiryDate;
 
     @Column(name = "marked_as_deleted")
     private Boolean markedAsDeleted = false;

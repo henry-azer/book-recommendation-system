@@ -14,13 +14,17 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Objects;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 @Slf4j
 @ControllerAdvice
 public class GlobalExceptionHandlerController extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(JWTVerificationException.class)
     public ResponseEntity<ApiResponse> handleJWTVerificationException(JWTVerificationException exception) {
-        log.info("GlobalExceptionHandlerController: JWTVerificationException() happened");
+        log.info("GlobalExceptionHandlerController: handleJWTVerificationException() happened");
         return new ResponseEntity<>(new ApiResponse(false, LocalDateTime.now().toString(),
                 exception.getMessage(), null), HttpStatus.valueOf(HttpStatus.BAD_REQUEST.value()));
     }

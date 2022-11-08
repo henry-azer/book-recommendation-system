@@ -1,4 +1,4 @@
-package com.henry.bookrecommendationsystem.jwt;
+package com.henry.bookrecommendationsystem.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.henry.bookrecommendationsystem.dto.base.response.ApiResponse;

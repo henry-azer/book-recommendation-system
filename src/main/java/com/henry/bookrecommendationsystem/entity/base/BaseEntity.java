@@ -16,6 +16,10 @@ import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

@@ -1,6 +1,6 @@
 -- liquibase formatted sql
 
--- changeset henry:20221102_create_user_table
+-- changeset henry:20221104_create_user_table
 
 CREATE TABLE IF NOT EXISTS user
 (

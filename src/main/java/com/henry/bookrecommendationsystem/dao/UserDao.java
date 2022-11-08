@@ -6,6 +6,10 @@ import com.henry.bookrecommendationsystem.repository.UserRepository;
 
 import java.util.Optional;
 
+/**
+ * @author Henry Azer
+ * @since 04/11/2022
+ */
 public interface UserDao extends BaseDao<User, UserRepository> {
     Optional<User> findUserByEmail(String email);
 

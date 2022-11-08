@@ -7,6 +7,10 @@ import lombok.*;
 
 import java.util.Date;
 
+/**
+ * @author Henry Azer
+ * @since 05/11/2022
+ */
 @Getter
 @Setter
 @ToString

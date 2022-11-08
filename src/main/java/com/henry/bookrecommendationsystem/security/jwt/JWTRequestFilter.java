@@ -1,4 +1,4 @@
-package com.henry.bookrecommendationsystem.jwt;
+package com.henry.bookrecommendationsystem.security.jwt;
 
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -43,7 +43,8 @@ public class JWTRequestFilter extends OncePerRequestFilter {
                 outputStream.flush();
             } else {
                 try {
-                    String email = jwtAuthenticationUtil.validateTokenAndRetrieveUserEmail(jwt);
+                    jwtAuthenticationUtil.verifyAccessTokenExpiration(jwt);
+                    String email = jwtAuthenticationUtil.getAccessTokenUserEmail(jwt);
                     UserDetails userDetails = jwtUserDetailsService.loadUserByUsername(email);
                     UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, userDetails.getPassword(), userDetails.getAuthorities());
 

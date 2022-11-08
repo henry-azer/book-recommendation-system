@@ -13,6 +13,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * @author Henry Azer
+ * @since 03/11/2022
+ */
 public interface BaseService<Entity extends BaseEntity, Dto extends BaseDto, Dao extends BaseDao, Transformer extends BaseTransformer> {
 
     Dao getDao();

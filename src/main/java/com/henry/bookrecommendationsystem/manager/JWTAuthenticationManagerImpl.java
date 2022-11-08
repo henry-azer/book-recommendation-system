@@ -3,7 +3,7 @@ package com.henry.bookrecommendationsystem.manager;
 import com.henry.bookrecommendationsystem.dto.base.request.AuthRequest;
 import com.henry.bookrecommendationsystem.dto.base.request.RefreshTokenRequest;
 import com.henry.bookrecommendationsystem.dto.base.response.AuthResponse;
-import com.henry.bookrecommendationsystem.jwt.JWTAuthenticationUtil;
+import com.henry.bookrecommendationsystem.security.jwt.JWTAuthenticationUtil;
 import com.henry.bookrecommendationsystem.service.RefreshTokenService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -50,7 +50,9 @@ public class JWTAuthenticationManagerImpl implements JWTAuthenticationManager {
     @Override
     public AuthResponse refreshToken(RefreshTokenRequest refreshTokenRequest) {
         log.info("JWTAuthenticationManager: refreshToken() called");
-        return new AuthResponse(jwtAuthenticationUtil.generateAccessToken(refreshTokenRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS), refreshTokenService.refreshToken(refreshTokenRequest).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
+        return new AuthResponse(jwtAuthenticationUtil
+                .generateAccessToken(refreshTokenRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS),
+                refreshTokenService.refreshToken(refreshTokenRequest).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
     }
 
     @Override
