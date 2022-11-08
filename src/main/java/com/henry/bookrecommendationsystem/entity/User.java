@@ -3,7 +3,10 @@ package com.henry.bookrecommendationsystem.entity;
 import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
 import com.henry.bookrecommendationsystem.enums.UserGender;
 import com.henry.bookrecommendationsystem.enums.UserMartialStatus;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -16,7 +19,6 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
@@ -57,9 +59,4 @@ public class User extends BaseEntity {
 
     @Column(name = "image_url")
     private String imageUrl;
-
-    @Override
-    public int hashCode() {
-        return getClass().hashCode();
-    }
 }
