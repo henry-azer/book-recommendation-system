@@ -4,10 +4,11 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
+import com.auth0.jwt.interfaces.DecodedJWT;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.time.Instant;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -23,14 +24,27 @@ public class JWTAuthenticationUtil {
     @Value("${library.security.jwt.accessToken.expirationMs}")
     private String JWT_ACCESS_TOKEN_EXPIRATION_MS;
 
-    public String generateAccessToken(String email) throws IllegalArgumentException, JWTCreationException {
+    public String generateAccessToken(String email) throws JWTCreationException {
         return JWT.create().withSubject("Library Authentication").withIssuer("Henry").withIssuedAt(new Date())
-                .withExpiresAt(Instant.now().plusMillis(Long.parseLong(JWT_ACCESS_TOKEN_EXPIRATION_MS)))
-                .withClaim("email", email).sign(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET));
+                .withExpiresAt(getAccessTokenExpireDate()).withClaim("email", email).sign(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET));
     }
 
-    public String validateTokenAndRetrieveUserEmail(String token) throws JWTVerificationException {
-        return JWT.require(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET)).acceptExpiresAt(Long.parseLong(JWT_ACCESS_TOKEN_EXPIRATION_MS))
-                .withSubject("Library Authentication").withIssuer("Henry").build().verify(token).getClaim("email").asString();
+    public String getAccessTokenUserEmail(String accessToken) {
+        return JWT.require(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET))
+                .withSubject("Library Authentication").withIssuer("Henry")
+                .build().verify(accessToken).getClaim("email").asString();
+    }
+
+    public void verifyAccessTokenExpiration(String accessToken) {
+        DecodedJWT jwtToken = JWT.decode(accessToken);
+        if (jwtToken.getExpiresAt().before(new Date()))
+            throw new JWTVerificationException("Expired Access Token");
+    }
+
+    private Date getAccessTokenExpireDate() {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        cal.add(Calendar.MILLISECOND, Integer.parseInt(JWT_ACCESS_TOKEN_EXPIRATION_MS));
+        return cal.getTime();
     }
 }

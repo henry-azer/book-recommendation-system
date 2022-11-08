@@ -50,7 +50,9 @@ public class JWTAuthenticationManagerImpl implements JWTAuthenticationManager {
     @Override
     public AuthResponse refreshToken(RefreshTokenRequest refreshTokenRequest) {
         log.info("JWTAuthenticationManager: refreshToken() called");
-        return new AuthResponse(jwtAuthenticationUtil.generateAccessToken(refreshTokenRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS), refreshTokenService.refreshToken(refreshTokenRequest).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
+        return new AuthResponse(jwtAuthenticationUtil
+                .generateAccessToken(refreshTokenRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS),
+                refreshTokenService.refreshToken(refreshTokenRequest).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
     }
 
     @Override

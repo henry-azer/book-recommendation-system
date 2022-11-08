@@ -10,12 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * @author Henry Azer
@@ -43,7 +38,7 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
         log.info("RefreshTokenService: createRefreshToken() called");
         Optional<RefreshToken> dbRefreshToken = refreshTokenDao.findRefreshTokenByEmail(email);
         if (dbRefreshToken.isPresent())
-            return refreshTokenDao.updateRefreshToken(dbRefreshToken.get());
+            return refreshTokenDao.updateRefreshToken(updateRefreshToken(dbRefreshToken.get()));
         return refreshTokenDao.createRefreshToken(constructRefreshToken(email));
     }
 
@@ -53,10 +48,7 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
         RefreshToken refreshToken = findRefreshTokenByRefreshToken(refreshTokenRequest.getRefreshToken());
         verifyRefreshTokenOwner(refreshToken, refreshTokenRequest);
         verifyRefreshTokenExpiration(refreshToken);
-        refreshToken.setToken(generateToken());
-        refreshToken.setExpiryDate(getRefreshTokenExpiryDate());
-        refreshToken.setRefreshCount(refreshToken.getRefreshCount() + 1);
-        return refreshTokenDao.updateRefreshToken(refreshToken);
+        return refreshTokenDao.updateRefreshToken(updateRefreshToken(refreshToken));
     }
 
     @Override
@@ -68,7 +60,7 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
 
     private void verifyRefreshTokenExpiration(RefreshToken refreshToken) {
         log.info("RefreshTokenService: verifyRefreshTokenExpiration() called");
-        if (refreshToken.getExpiryDate().compareTo(LocalDateTime.now()) < 0)
+        if (refreshToken.getExpiryDate().compareTo(new Date()) < 0)
             throw new JWTVerificationException("Expired Refresh Token");
     }
 
@@ -78,24 +70,33 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
             throw new JWTVerificationException("Invalid Email");
     }
 
+    private RefreshToken updateRefreshToken(RefreshToken refreshToken) {
+        refreshToken.setToken(generateRandomRefreshToken());
+        refreshToken.setExpiryDate(getRefreshTokenExpiryDate());
+        refreshToken.setRefreshCount(refreshToken.getRefreshCount() + 1);
+        return refreshToken;
+    }
+
     private RefreshToken constructRefreshToken(String email) {
         log.info("RefreshTokenService: constructRefreshToken() called");
         RefreshToken refreshToken = new RefreshToken();
-        refreshToken.setToken(generateToken());
+        refreshToken.setToken(generateRandomRefreshToken());
         refreshToken.setExpiryDate(getRefreshTokenExpiryDate());
         refreshToken.setRefreshCount(0L);
         refreshToken.setEmail(email);
         return refreshToken;
     }
 
-    private LocalDateTime getRefreshTokenExpiryDate() {
+    private Date getRefreshTokenExpiryDate() {
         log.info("RefreshTokenService: getRefreshTokenExpiryDate() called");
-        return LocalDateTime.ofInstant(Instant.ofEpochMilli(System.currentTimeMillis()
-                + Long.parseLong(JWT_REFRESH_TOKEN_EXPIRATION_MS)), ZoneOffset.UTC);
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        cal.add(Calendar.MILLISECOND, Integer.parseInt(JWT_REFRESH_TOKEN_EXPIRATION_MS));
+        return cal.getTime();
     }
 
-    private String generateToken() {
-        log.info("RefreshTokenService: generateToken() called");
+    private String generateRandomRefreshToken() {
+        log.info("RefreshTokenService: generateRandomRefreshToken() called");
         return (UUID.randomUUID().toString() + UUID.randomUUID() + UUID.randomUUID() + UUID.randomUUID() + UUID.randomUUID());
     }
 }
