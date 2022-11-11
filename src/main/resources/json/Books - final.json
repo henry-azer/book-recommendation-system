@@ -1,0 +1,1328 @@
+[
+    {
+        "author": {
+            "id": 1
+        },
+        "name": "Robot",
+        "category": {
+            "id": 1
+        },
+        "price": 4.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 336,
+        "readingDuration": 677,
+        "publishDate": "2021-06-03T00:00:00.000+00:00",
+        "description": "As the Kremlin orders troops to mass on the Ukrainian border, a Russian plane carrying nukes disappears mid-flight. For US President Jack Ryan this means attempting to defuse a war on Europe's flanks before it engulfs the whole continent.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141995359/9780141995359-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 2
+        },
+        "name": "The Every",
+        "category": {
+            "id": 1
+        },
+        "price": 5.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 608,
+        "readingDuration": 1176,
+        "publishDate": "2021-11-16T00:00:00.000+00:00",
+        "description": "When the world's largest search engine / social media company merges with the planet's dominant e-commerce site, it creates the richest and most dangerous-and, oddly enough, most beloved-monopoly ever known: The Every.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241535509/9780241535509-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 3
+        },
+        "name": "Player Piano",
+        "category": {
+            "id": 1
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 352,
+        "readingDuration": 604,
+        "publishDate": "2021-11-16T00:00:00.000+00:00",
+        "description": "Player Piano is the debut novel from one of history's most innovative authors, published on Vonnegut's 100th birthday.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473582392/9781473582392-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 4
+        },
+        "name": "Appliance",
+        "category": {
+            "id": 1
+        },
+        "price": 16.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 208,
+        "readingDuration": 476,
+        "publishDate": "2022-05-19T00:00:00.000+00:00",
+        "description": "Are they paying you extra for this? You'd better be getting something. For the inconvenience, I mean. Here for the whole weekend is what they said. What if we'd had guests? They never asked. And in any case what are the dangers? Being tested like lab rats, we are. Did they even try to provide any assurance it was all perfectly",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781787333888/9781787333888-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 5
+        },
+        "name": "The Book of Sand",
+        "category": {
+            "id": 1
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 608,
+        "readingDuration": 1116,
+        "publishDate": "2022-08-04T00:00:00.000+00:00",
+        "description": "Outlines of several once-busy cities shimmer on the horizon. Now empty of inhabitants, their buildings lie in ruins. In the distance a group of people - a family - walk towards us.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781529158014/9781529158014-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 6
+        },
+        "name": "The War of the Worlds",
+        "category": {
+            "id": 1
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 240,
+        "readingDuration": 474,
+        "publishDate": "2005-03-31T00:00:00.000+00:00",
+        "description": "The first modern depiction of extra-terrestrials attacking the earth, The War of the Worlds remains one of the most influential of all science-fiction works. It shows the whole of human civilization under threat, as terrifying, tentacled Martians land in England, build gigantic killing machines, destroy all in their path with black gas and burning rays and feast on the warm blood of trapped, still-living human prey. The forces of the Earth, however, may prove harder to beat than they at first appear.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141441030/9780141441030-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 6
+        },
+        "name": "The Invisible Man",
+        "category": {
+            "id": 1
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 192,
+        "readingDuration": 300,
+        "publishDate": "2017-01-05T00:00:00.000+00:00",
+        "description": "A cautionary horror story about the dangers of greed, isolation and a science without ethics, from the father of science fiction.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784872090/9781784872090-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 7
+        },
+        "name": "Eve of Man",
+        "category": {
+            "id": 1
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 432,
+        "readingDuration": 300,
+        "publishDate": "2020-01-23T00:00:00.000+00:00",
+        "description": "Eve lives alone in the Tower under the strict gaze of the Mothers. She is prized and protected, because she is the last girl on earth.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780718184124/9780718184124-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 8
+        },
+        "name": "A Star Wars Story",
+        "category": {
+            "id": 1
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 368,
+        "readingDuration": 300,
+        "publishDate": "2019-05-02T00:00:00.000+00:00",
+        "description": "Though Han Solo has thrilled Star Wars fans for decades, the notorious wisecracking scoundrel was chasing adventure and dodging trouble long before he walked into the cantina at Mos Eisley spaceport.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781787462076/9781787462076-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 9
+        },
+        "name": "Doctor Who: Molten Heart",
+        "category": {
+            "id": 1
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 208,
+        "readingDuration": 300,
+        "publishDate": "2018-11-08T00:00:00.000+00:00",
+        "description": "Deep below the surface of the planet Adamantine lies a crystalline wonder world of lava seas and volcanic islands, home to living rock-people.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781785943638/9781785943638-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 10
+        },
+        "name": "The Year of the Witching",
+        "category": {
+            "id": 2
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 368,
+        "readingDuration": 300,
+        "publishDate": "2021-09-30T00:00:00.000+00:00",
+        "description": "The Handmaid's Tale meets The Village in this stunning feminist debut . . . Shortlisted for the Good Reads Choice Awards 2020 for Best Debut Novel and Best Horror Novel . . .",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780552176682/9780552176682-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 11
+        },
+        "name": "Pine",
+        "category": {
+            "id": 2
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 336,
+        "readingDuration": 300,
+        "publishDate": "2020-10-01T00:00:00.000+00:00",
+        "description": "Shortlisted for Bloody Scotland's Scottish Crime Debut of the Year 2020",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784164829/9781784164829-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 12
+        },
+        "name": "Cat out of Hell",
+        "category": {
+            "id": 2
+        },
+        "price": 12.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 256,
+        "readingDuration": 300,
+        "publishDate": "2014-10-09T00:00:00.000+00:00",
+        "description": "By acclaimed storyteller Lynne Truss, authorName of the bestselling Eats, Shoots and Leaves, the mesmerizing tale of a cat with nine lives, and a relationship as ancient as time itself and just as powerful.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099585343/9780099585343-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 13
+        },
+        "name": "The Chalk Man",
+        "category": {
+            "id": 2
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 368,
+        "readingDuration": 300,
+        "publishDate": "2018-08-23T00:00:00.000+00:00",
+        "description": "'IF YOU LIKE MY STUFF, YOU'LL LIKE THIS' STEPHEN KING'WONDERFULLY CREEPY - LIKE A COLD BLADE ON THE BACK OF YOUR NECK' LEE CHILD...",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781405930956/9781405930956-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 14
+        },
+        "name": "The Woman in Black",
+        "category": {
+            "id": 2
+        },
+        "price": 4.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 240,
+        "readingDuration": 300,
+        "publishDate": "2015-02-05T00:00:00.000+00:00",
+        "description": "Heartstoppingly chilling' Daily Express. Read the truly terrifying classic English ghost story behind the play.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473521025/9781473521025-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 15
+        },
+        "name": "Frankenstein",
+        "category": {
+            "id": 2
+        },
+        "price": 5.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 288,
+        "readingDuration": 300,
+        "publishDate": "2011-02-03T00:00:00.000+00:00",
+        "description": "Victor Frankenstein has made a terrible mistake. In his desperate pursuit to create life, he has created a monster",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141967127/9780141967127-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 16
+        },
+        "name": "The Murders in the Rue Morgue",
+        "category": {
+            "id": 2
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 169,
+        "readingDuration": 152,
+        "publishDate": "2009-01-01T00:00:00.000+00:00",
+        "description": "Edgar Allan Poe invented detective fiction with these three mesmerising stories of a young eccentric named C. Auguste Dupin: 'The Murders in the Rue Morgue', 'The Mystery of Marie Rogêt' and 'The Purloined Letter'.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099529583/9780099529583-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 17
+        },
+        "name": "Ghost Stories",
+        "category": {
+            "id": 2
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 192,
+        "readingDuration": 357,
+        "publishDate": "2016-10-06T00:00:00.000+00:00",
+        "description": "There's nothing sinister about a London bus. Nothing supernatural could occur on a busy Tube platform. There's nothing terrifying about a little caterpillar. And a telephone, what could be scary about that? Don't be frightened of the dark corners of your room.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784871901/9781784871901-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 18
+        },
+        "name": "Zone One",
+        "category": {
+            "id": 2
+        },
+        "price": 12.5,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 272,
+        "readingDuration": 549,
+        "publishDate": "2017-11-16T00:00:00.000+00:00",
+        "description": "A pandemic has devastated the planet, sorting humanity into two types: the uninfected and the infected, the living and the living dead. The worst of the plague is now past, and Manhattan is slowly being resettled. Armed forces havesuccessfully reclaimed the island south of Canal Street – aka ‘Zone One’ and teams of civilian volunteers are clearing out the remaining infected ‘stragglers’.",
+        "imageUrl": ""
+    },
+    {
+        "author": {
+            "id": 19
+        },
+        "name": "The Haunting of Hill House",
+        "category": {
+            "id": 2
+        },
+        "price": 14.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 208,
+        "readingDuration": 435,
+        "publishDate": "2013-10-03T00:00:00.000+00:00",
+        "description": "First published in 1959, Shirley Jackson's The Haunting of Hill House has been hailed as a perfect work of unnerving terror. It is the story of four seekers who arrive at a notoriously unfriendly pile called Hill House: Dr. Montague, an occult scholar looking for solid evidence of a 'haunting'; Theodora, his lighthearted assistant; Eleanor, a friendless, fragile young woman well acquainted with poltergeists; and Luke, the future heir of Hill House.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780143122357/9780143122357-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 20
+        },
+        "name": "Dracula",
+        "category": {
+            "id": 3
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 656,
+        "readingDuration": 1446,
+        "publishDate": "2013-10-03T00:00:00.000+00:00",
+        "description": "I am Dracula. And I bid you welcome to my house. He is deathly pale. His fingernails are cut to sharp points. His teeth protrude menacingly from his mouth in clouds of rancid breath… Yet even Count.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099582595/9780099582595-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 21
+        },
+        "name": "One Hundred Years of Solitude",
+        "category": {
+            "id": 3
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 432,
+        "readingDuration": 904,
+        "publishDate": "2020-03-05T00:00:00.000+00:00",
+        "description": "ONE OF THE WORLD'S MOST FAMOUS BOOKS AND WINNER OF THE NOBEL PRIZE FOR LITERATURE",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241968581/9780241968581-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 22
+        },
+        "name": "War And Peace",
+        "category": {
+            "id": 3
+        },
+        "price": 20.0,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 1440,
+        "readingDuration": 3056,
+        "publishDate": "2016-01-07T00:00:00.000+00:00",
+        "description": "A beautiful Penguin clothbound edition of Tolstoy's magnificent epic novel of love, conflict, fate and human life in all its imperfection and grandeur",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241265543/9780241265543-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 23
+        },
+        "name": "To Kill A Mockingbird",
+        "category": {
+            "id": 3
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 320,
+        "readingDuration": 664,
+        "publishDate": "2020-07-09T00:00:00.000+00:00",
+        "description": "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099549482/9780099549482-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 24
+        },
+        "name": "A Clockwork Orange",
+        "category": {
+            "id": 3
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 325,
+        "readingDuration": 674,
+        "publishDate": "2013-12-05T00:00:00.000+00:00",
+        "description": "Fully restored edition of Anthony Burgess' original text of A Clockwork Orange, with a glossary of the teen slang 'Nadsat', explanatory notes, pages from the original typescript, interviews, articles and reviews.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141197531/9780141197531-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 25
+        },
+        "name": "Blind Owl",
+        "category": {
+            "id": 3
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 112,
+        "readingDuration": 246,
+        "publishDate": "2022-10-06T00:00:00.000+00:00",
+        "description": "Blind Owl, Sadeq Hedayat's masterpiece, tells the story of a young pen-casepainter and his heartbreak. Isolated and alone, he mourns the loss of a mysterious love while descending into recollections and dreams frosted over by opium and alcohol, and imbued with the images he paints: an old man, a cypress tree, a beautiful woman, a water lily",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780143136583/9780143136583-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 26
+        },
+        "name": "My Lord John",
+        "category": {
+            "id": 3
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 400,
+        "readingDuration": 845,
+        "publishDate": "2022-11-10T00:00:00.000+00:00",
+        "description": "Through his loyalty, strength, and superb fighting power, he would go on to became the greatest ally his brother, King Henry V, could have asked for.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099476429/9780099476429-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 27
+        },
+        "name": "The Picture of Dorian Gray",
+        "category": {
+            "id": 3
+        },
+        "price": 16.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 304,
+        "readingDuration": 678,
+        "publishDate": "2009-09-03T00:00:00.000+00:00",
+        "description": "Part of Penguin's beautiful hardback Clothbound Classic series, designed by the award-winning Coralie Bickford-Smith, these delectable and collectible editions are bound in high-quality colourful, tactile cloth with foil stamped into the design.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141442464/9780141442464-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 28
+        },
+        "name": "No Pain Like This Body",
+        "category": {
+            "id": 3
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 224,
+        "readingDuration": 482,
+        "publishDate": "2022-08-04T00:00:00.000+00:00",
+        "description": "In the Caribbean, at the beginning of the last century, a poor rice-growing family struggle to exist. Four siblings pass their days in the ricefield, as does Ma. But Pa is an angry man ready to vent. It is the August rainy season and above their heads the black sky crackles with lightning.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784877026/9781784877026-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 29
+        },
+        "name": "The Prophet",
+        "category": {
+            "id": 3
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 128,
+        "readingDuration": 265,
+        "publishDate": "2022-08-25T00:00:00.000+00:00",
+        "description": "Introducing Little Clothbound Classicirresistible, mini editions of short stories, novellas and essays from the world's greatest writers, designed by the awardwinning Coralie Bickford-Smith.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241573716/9780241573716-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 30
+        },
+        "name": "Odessa Sea",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 480,
+        "readingDuration": 972,
+        "publishDate": "2017-12-14T00:00:00.000+00:00",
+        "description": "As Director of the National Underwater and Marine Agency, Dirk Pitt has always had a knack for finding rouble. This time, though, trouble has found him . . .",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781405927659/9781405927659-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 31
+        },
+        "name": "Fatherland",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 560,
+        "readingDuration": 1235,
+        "publishDate": "2017-08-10T00:00:00.000+00:00",
+        "description": "The highest form of thriller . . . non-stop excitement' The Times",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781787460485/9781787460485-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 32
+        },
+        "name": "The Cretan Runner",
+        "category": {
+            "id": 4
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 368,
+        "readingDuration": 782,
+        "publishDate": "2009-08-06T00:00:00.000+00:00",
+        "description": "The legendary story of a resistance hero",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141043340/9780141043340-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 33
+        },
+        "name": "The Thirty-Nine Steps",
+        "category": {
+            "id": 4
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 272,
+        "readingDuration": 538,
+        "publishDate": "2011-01-06T00:00:00.000+00:00",
+        "description": "Discover the original and best adventure story ever told.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099528395/9780099528395-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 34
+        },
+        "name": "Jurassic Park",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 480,
+        "readingDuration": 938,
+        "publishDate": "2015-05-21T00:00:00.000+00:00",
+        "description": "Breathtaking adventure. . . a book that is as hard to put down as it is to forget",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784752224/9781784752224-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 31
+        },
+        "name": "Munich",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 448,
+        "readingDuration": 977,
+        "publishDate": "2022-01-06T00:00:00.000+00:00",
+        "description": "MUNICH, SEPTEMBER 1938 Hitler is determined to start a war. Chamberlain is desperate to preserve the peace. They will meet in a city which forever afterwards will be known for what is aboutto take place.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781787467996/9781787467996-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 35
+        },
+        "name": "The Martian",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 384,
+        "readingDuration": 745,
+        "publishDate": "2015-08-27T00:00:00.000+00:00",
+        "description": "A survival story for the 21st century and the international bestseller behind the major film from Ridley Scott, starring Matt Damon and Jessica Chastain.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781785031137/9781785031137-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 36
+        },
+        "name": "Origin",
+        "category": {
+            "id": 4
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 560,
+        "readingDuration": 1074,
+        "publishDate": "2018-07-12T00:00:00.000+00:00",
+        "description": "The global bestseller - Origin is the latest Robert Langdon novel from the authorName of The Da Vinci Code.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780552174169/9780552174169-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 36
+        },
+        "name": "Great Circle",
+        "category": {
+            "id": 4
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 688,
+        "readingDuration": 1378,
+        "publishDate": "2022-05-26T00:00:00.000+00:00",
+        "description": "A soaring, breathtakingly ambitious novel that weaves together the astonishing lives of a 1950s vanished female aviator and the modern-day Hollywood actress who plays her on screen.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781529176643/9781529176643-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 37
+        },
+        "name": "Tom Clancy's Oath of Office",
+        "category": {
+            "id": 4
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 544,
+        "readingDuration": 1146,
+        "publishDate": "2019-10-17T00:00:00.000+00:00",
+        "description": "As the Kremlin orders troops to mass on the Ukrainian border, a Russian planecarrying nukes disappears mid-flight.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781405935470/9781405935470-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 38
+        },
+        "name": "A Love Story for Bewildered Girls",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 172,
+        "readingDuration": 349,
+        "publishDate": "2020-08-13T00:00:00.000+00:00",
+        "description": "An utterly gorgeous novel. It will forever hold my heart in its pages' Pandora Sykes, co-host of The High-Low podcast",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241984680/9780241984680-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 39
+        },
+        "name": "Live a Little",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 288,
+        "readingDuration": 544,
+        "publishDate": "2020-08-06T00:00:00.000+00:00",
+        "description": "A . . . tender love story . . . This book is alive. It pulses with warmth and intelligence' The Times. A wickedly observed novel about falling in love at the end of your life",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781529110555/9781529110555-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 40
+        },
+        "name": "Mix Tape",
+        "category": {
+            "id": 5
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 416,
+        "readingDuration": 838,
+        "publishDate": "2020-09-17T00:00:00.000+00:00",
+        "description": "This tender tale of second chances... is a nostalgic delight",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784164850/9781784164850-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 41
+        },
+        "name": "The Giver of Stars",
+        "category": {
+            "id": 5
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 464,
+        "readingDuration": 923,
+        "publishDate": "2022-06-09T00:00:00.000+00:00",
+        "description": "A spellbinding story of love, community and the power of reading from the authorName of The Last Letter from Your Lover, now a major motion picture, and Me before You",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780718183219/9780718183219-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 26
+        },
+        "name": "Snowdrift and Other Stories",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 384,
+        "readingDuration": 795,
+        "publishDate": "2017-10-19T00:00:00.000+00:00",
+        "description": "Previously titled Pistols for two, this collection includes three of Heyer’s earliest short stories, published together in book form for the very first time. A treat for all fans of Georgette Heyer, and for those who love stories full of romance and intrigue.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784756130/9781784756130-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 26
+        },
+        "name": "Regency Buck",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 368,
+        "readingDuration": 723,
+        "publishDate": "2020-03-12T00:00:00.000+00:00",
+        "description": "Beautiful heiress Judith Taverner has her pick of London suitors. But her luck takes a turn for the worse when her hapless brother, Peregrine, becomes the target of a would-be-assassin.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099465584/9780099465584-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 42
+        },
+        "name": "One Winter Morning",
+        "category": {
+            "id": 5
+        },
+        "price": 0.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 400,
+        "readingDuration": 822,
+        "publishDate": "2019-08-29T00:00:00.000+00:00",
+        "description": "The frosty mornings and twinkling fairy lights only remind her it's been a whole year since she lost her adoptive mother, who took her in as a baby and raised her as her own",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781405935517/9781405935517-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 43
+        },
+        "name": "Meet Me at the Museum",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 240,
+        "readingDuration": 467,
+        "publishDate": "2019-12-26T00:00:00.000+00:00",
+        "description": "Meet Me at the Museum tells of a connection made across oceans and against all the odds. Through intimate stories of joy, despair, and discovery, two people are drawn inexorably towards the other, until a shattering revelation pushes their friendship to the very edge. ",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784163464/9781784163464-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 44
+        },
+        "name": "Rachel's Holiday",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 640,
+        "readingDuration": 1342,
+        "publishDate": "2021-12-09T00:00:00.000+00:00",
+        "description": "She's been living it up in New York City, spending her nights talking her way into glamorous parties before heading home in the early hours to her adoring boyfriend,Luke.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241958438/9780241958438-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 45
+        },
+        "name": "After the Party",
+        "category": {
+            "id": 5
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 512,
+        "readingDuration": 1099,
+        "publishDate": "2016-04-07T00:00:00.000+00:00",
+        "description": "Eleven years ago, Jem and Ralph fell in love. They thought it would be for ever, that they’d found their happy ending.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780099533689/9780099533689-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 46
+        },
+        "name": "The Twits",
+        "category": {
+            "id": 6
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 144,
+        "readingDuration": 274,
+        "publishDate": "2022-07-21T00:00:00.000+00:00",
+        "description": "To pay Mrs. Twit back for the worms in his spaghetti, Mr. Twit thought up a really clever, nasty trick . . .",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241578186/9780241578186-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 71
+        },
+        "name": "The Last Firefox",
+        "category": {
+            "id": 6
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 304,
+        "readingDuration": 674,
+        "publishDate": "2022-03-03T00:00:00.000+00:00",
+        "description": "Between bullies at school and changes at home, Charlie Challinor finds life a bit scary. And when he's made guardian of a furry fox cub called Cadno, things get a whole lot scarier.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241493533/9780241493533-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 72
+        },
+        "name": "Frankie Best Hates Quests",
+        "category": {
+            "id": 6
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 400,
+        "readingDuration": 955,
+        "publishDate": "2022-03-31T00:00:00.000+00:00",
+        "description": "From the incredible imagination of Chris Smith - bestselling authorName and now a major new solo talent - comes an extraordinary accidental adventure for fans of Cressida Cowell and Pixar's Onward.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241522110/9780241522110-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 47
+        },
+        "name": "Kay's Marvellous Medicine",
+        "category": {
+            "id": 6
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 416,
+        "readingDuration": 845,
+        "publishDate": "2022-07-21T00:00:00.000+00:00",
+        "description": "The brand-new, hilarious book from bestselling, record-breaking authorName Adam Kay",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241508541/9780241508541-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 48
+        },
+        "name": "The Green Planet",
+        "category": {
+            "id": 6
+        },
+        "price": 16.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 64,
+        "readingDuration": 130,
+        "publishDate": "2022-01-06T00:00:00.000+00:00",
+        "description": "In the world of plants, time passes more slowly, but if we speed months into minutes we can peer into this hidden world and realise: it's a battleground. Plants are working to thwart their enemies, and to trick animals into working for them.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781405946667/9781405946667-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 49
+        },
+        "name": "The Primrose Railway Children",
+        "category": {
+            "id": 6
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 512,
+        "readingDuration": 1078,
+        "publishDate": "2022-06-09T00:00:00.000+00:00",
+        "description": "Phoebe Robinson loves making up stories - just like her wonderful, imaginative Dad.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241537633/9780241537633-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 50
+        },
+        "name": "Ambrose Follows His Nose",
+        "category": {
+            "id": 6
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 176,
+        "readingDuration": 374,
+        "publishDate": "2022-03-03T00:00:00.000+00:00",
+        "description": "An exciting new publication in celebration of the centenary of his birth, a recently discovered funny and poignant animal story by Dick King-Smith, completed by his great granddaughter, Josie Rogers.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241488409/9780241488409-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 51
+        },
+        "name": "The Tale Of Peter Rabbit",
+        "category": {
+            "id": 6
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 80,
+        "readingDuration": 178,
+        "publishDate": "2022-02-03T00:00:00.000+00:00",
+        "description": "This birthday edition has been re-originated to match Beatrix Potter's first published work with a celebratory new cover.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241513729/9780241513729-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 52
+        },
+        "name": "Gretel the Wonder Mammoth",
+        "category": {
+            "id": 6
+        },
+        "price": 6.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 32,
+        "readingDuration": 74,
+        "publishDate": "2022-03-03T00:00:00.000+00:00",
+        "description": "One peaceful Tuesday morning, a loud CRACK could be heard as the last mammoth on earth broke free from her icy shell - here comes Gretel the Wonder Mammoth! Everyone is so excited to meet her but as she settles into her new life, Gretel starts to feel a little overwhelmed and even a bit lonely... ",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241488560/9780241488560-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 53
+        },
+        "name": "The Good Turn",
+        "category": {
+            "id": 6
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 400,
+        "readingDuration": 844,
+        "publishDate": "2022-05-12T00:00:00.000+00:00",
+        "description": "For 9+ readers, this gripping, thoughtful update to the Blytonesque 'secret society' genre engages squarely with racism and social injustice.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241523599/9780241523599-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 54
+        },
+        "name": "We Were Eight Years in Power",
+        "category": {
+            "id": 7
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 384,
+        "readingDuration": 744,
+        "publishDate": "2018-11-01T00:00:00.000+00:00",
+        "description": "Obama's presidency was a watershed moment in American history. From 2008-2016, the leader of the free world was a black man. In those eight years, Obama transformed the conversation around race, gender, class and wealth - inspiring hope but also attracting criticism and breeding discontent.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241982495/9780241982495-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 55
+        },
+        "name": "Japan Story",
+        "category": {
+            "id": 7
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 400,
+        "readingDuration": 865,
+        "publishDate": "2018-11-01T00:00:00.000+00:00",
+        "description": "It is told through the eyes of people who greeted this change not with the confidence and grasping ambition of Japan's modernizers and nationalists, but with resistance, conflict, distress. ",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141985367/9780141985367-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 48
+        },
+        "name": "Hitler",
+        "category": {
+            "id": 7
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 1072,
+        "readingDuration": 2279,
+        "publishDate": "2013-03-07T00:00:00.000+00:00",
+        "description": "Ian Kershaw's two volume biography, Hitler 1889-1936: Hubris and Hitler 1936-1945: Nemesis, was greeted with universal acclaim as the essential work on one of the most malign figures in history, from his earliest origins to the final days of the Second World War. ",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141909592/9780141909592-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 56
+        },
+        "name": "Churchill",
+        "category": {
+            "id": 7
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 256,
+        "readingDuration": 574,
+        "publishDate": "2011-08-31T00:00:00.000+00:00",
+        "description": "This astute biography brilliantly captures, in one volume, the full range of Winston Churchill's astonishing career. perhaps the greatest political figure of modern times, Churchill's achievement extended well beyond his emblematic role in the Second World War. ",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781446484920/9781446484920-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 57
+        },
+        "name": "The Art of Innovation",
+        "category": {
+            "id": 7
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 320,
+        "readingDuration": 741,
+        "publishDate": "2019-09-19T00:00:00.000+00:00",
+        "description": "Based on the landmark Radio 4 series, this beautifully illustrated modern history ofthe connections between science and art offers a new perspective on what thatrelationship has contributed to the world around us.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473570733/9781473570733-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 58
+        },
+        "name": "The Boundless Sea",
+        "category": {
+            "id": 7
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 1088,
+        "readingDuration": 2374,
+        "publishDate": "2019-10-03T00:00:00.000+00:00",
+        "description": "For most of human history, the seas and oceans have been the main means of longdistance trade and communication between peoples - for the spread of ideas and religion as well as commerce.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141972091/9780141972091-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 59
+        },
+        "name": "Icebreaker",
+        "category": {
+            "id": 7
+        },
+        "price": 8.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 224,
+        "readingDuration": 474,
+        "publishDate": "2019-04-04T00:00:00.000+00:00",
+        "description": "We are celebrating a hundred years since independence this year: how would you like to travel on a government icebreaker?",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781784706791/9781784706791-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 60
+        },
+        "name": "Empireland",
+        "category": {
+            "id": 7
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 254,
+        "readingDuration": 536,
+        "publishDate": "2021-10-07T00:00:00.000+00:00",
+        "description": "Strangely hidden from view, the British Empire remains a subject of both shame and glorification. In his bestselling book, Sathnam Sanghera shows how our imperial past is everywhere: from how we live and think to the foundation of the NHS and even our response to the COVID-19 crisis.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241445310/9780241445310-jacket-large.jpg    "
+    },
+    {
+        "author": {
+            "id": 61
+        },
+        "name": "Midnight in Chernobyl",
+        "category": {
+            "id": 7
+        },
+        "price": 7.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 560,
+        "readingDuration": 1178,
+        "publishDate": "2019-02-14T00:00:00.000+00:00",
+        "description": "Chernobyl has become lodged in the collective nightmares of the world: shorthand for the spectral horrors of radiation poisoning, for a dangerous technology slipping its leash, for ecological fragility, and for what can happen when a dishonest and careless state endangers not only its own citizens, but all of humanity.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473540828/9781473540828-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 62
+        },
+        "name": "The Red Arrows",
+        "category": {
+            "id": 7
+        },
+        "price": 20.0,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 288,
+        "readingDuration": 512,
+        "publishDate": "2022-05-26T00:00:00.000+00:00",
+        "description": "The Red Arrows represent the very best speed, agility and precision aerobatic flying in the Royal Air Force, and the people who wear those iconic red flight suits are rigorously selected not just for their flying skills, lightning-fast reflexes and nerves of steel, but for their mental resilience, courage and humility",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781529135527/9781529135527-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 63
+        },
+        "name": "Above Average at Games",
+        "category": {
+            "id": 8
+        },
+        "price": 25.0,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 416,
+        "readingDuration": 866,
+        "publishDate": "2019-10-31T00:00:00.000+00:00",
+        "description": "As Wodehouse's biographer Frances Donaldson observed, it was vitally important to the boy Plum that he was ‘above average at games’. Luckily, he was known at school as ‘a noted athlete, a fine footballer and cricketer [and] a boxer’, and sport inspired much of his earliest writings, as well as some of his very finest and laughout-loud funniest.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781786332004/9781786332004-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 64
+        },
+        "name": "Adrenaline",
+        "category": {
+            "id": 8
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 272,
+        "readingDuration": 577,
+        "publishDate": "2022-07-28T00:00:00.000+00:00",
+        "description": "Football's most prolific and controversial goal scorer has nothing left to prove on the pitch. There is only one Zlatan.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241996089/9780241996089-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 65
+        },
+        "name": "The Race Against Time",
+        "category": {
+            "id": 8
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 288,
+        "readingDuration": 598,
+        "publishDate": "2023-01-12T00:00:00.000+00:00",
+        "description": "What do you do when the sport that has been your lifeline to physical and mental well-being starts to slip away from you?",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473574083/9781473574083-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 66
+        },
+        "name": "Believe",
+        "category": {
+            "id": 8
+        },
+        "price": 4.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 256,
+        "readingDuration": 545,
+        "publishDate": "2017-05-18T00:00:00.000+00:00",
+        "description": "At London 2012, Nicola Adams made history when she became the first woman ever to win an Olympic Gold medal for boxing. In Rio 2016, with the nation cheering her on, she did it all over again.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241980545/9780241980545-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 67
+        },
+        "name": "Sport Inc.",
+        "category": {
+            "id": 8
+        },
+        "price": 10.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 304,
+        "readingDuration": 624,
+        "publishDate": "2019-09-19T00:00:00.000+00:00",
+        "description": "Sport Inc. reveals the behind-the-scenes finances that drive sport - who gets rich and who gets left on the bench.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781787290136/9781787290136-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 68
+        },
+        "name": "100 Essential Things You Didn't Know You Didn't Know About Sport",
+        "category": {
+            "id": 8
+        },
+        "price": 3.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 320,
+        "readingDuration": 748,
+        "publishDate": "2012-03-15T00:00:00.000+00:00",
+        "description": "100 Essential Things You Didn’t Know You Didn’t Know about Sport sheds light on the mysteries of running, jumping, swimming and points scoring across the whole sporting spectrum.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781448129546/9781448129546-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 69
+        },
+        "name": "Never Give Up",
+        "category": {
+            "id": 8
+        },
+        "price": 9.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 416,
+        "readingDuration": 912,
+        "publishDate": "2021-10-28T00:00:00.000+00:00",
+        "description": "Bear Grylls has always sought out adventure. From childhood escapades to wouldrecord-breaking expeditions, to his infamous survival challenges, Bear has spent a lifetime in the wild.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9781473584938/9781473584938-jacket-large.jpg"
+    },
+    {
+        "author": {
+            "id": 70
+        },
+        "name": "All In",
+        "category": {
+            "id": 8
+        },
+        "price": 5.99,
+        "rate": 0,
+        "usersRateCount": 0,
+        "pagesNumber": 496,
+        "readingDuration": 966,
+        "publishDate": "2021-09-09T00:00:00.000+00:00",
+        "description": "An inspiring and intimate self-portrait of the champion of equality that encompasses her brilliant tennis career, unwavering activism, and an ongoing commitment to fairness and social justice.",
+        "imageUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780241430613/9780241430613-jacket-large.jpg"
+    }
+]
