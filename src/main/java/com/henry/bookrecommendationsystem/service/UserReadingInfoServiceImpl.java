@@ -45,7 +45,7 @@ public class UserReadingInfoServiceImpl implements UserReadingInfoService {
     public UserReadingInfoDto create(UserReadingInfoDto dto) {
         log.info("UserReadingInfoService: create() called");
         dto.setUser(userService.getCurrentUser());
-        dto.getUserBookCategories().forEach(userBookCategoryService::create);
+        dto.getUserBookCategories().forEach(userBookCategoryDto -> userBookCategoryDto.setUser(userService.getCurrentUser()));
         UserReadingInfoDto userReadingInfoDto = getTransformer().transformEntityToDto(getDao().create(getTransformer().transformDtoToEntity(dto)));
         userReadingInfoDto.setUserBookCategories(userBookCategoryService.findAllUserBookCategories());
         return userReadingInfoDto;
