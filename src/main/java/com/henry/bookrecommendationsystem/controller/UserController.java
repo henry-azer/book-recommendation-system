@@ -2,7 +2,9 @@ package com.henry.bookrecommendationsystem.controller;
 
 import com.henry.bookrecommendationsystem.controller.base.BaseController;
 import com.henry.bookrecommendationsystem.dto.UserDto;
+import com.henry.bookrecommendationsystem.dto.UserReadingInfoDto;
 import com.henry.bookrecommendationsystem.dto.base.response.ApiResponse;
+import com.henry.bookrecommendationsystem.service.UserReadingInfoService;
 import com.henry.bookrecommendationsystem.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,6 +24,7 @@ import java.time.LocalDateTime;
 @RequestMapping("/api/user")
 public class UserController implements BaseController<UserService> {
     private final UserService userService;
+    private final UserReadingInfoService userReadingInfoService;
 
     @Override
     public UserService getService() {
@@ -44,6 +47,13 @@ public class UserController implements BaseController<UserService> {
                 "User martial status fetched successfully.", getService().getUserMartialStatuses());
     }
 
+    @GetMapping("/find-reading-info")
+    public ApiResponse findUserReadingInfo() {
+        log.info("UserController: createUserReadingInfo() called");
+        return new ApiResponse(true, LocalDateTime.now().toString(),
+                "User reading info fetched successfully.", userReadingInfoService.findUserReadingInfo());
+    }
+
     @GetMapping("/find-is-email-exists/{email}")
     public ApiResponse checkIsEmailAlreadyExists(@PathVariable String email) {
         log.info("UserController: checkIsEmailAlreadyExists() called");
@@ -56,6 +66,13 @@ public class UserController implements BaseController<UserService> {
         log.info("UserController: createUser() called");
         return new ApiResponse(true, LocalDateTime.now().toString(),
                 "User created successfully.", getService().create(userDto));
+    }
+
+    @PostMapping("/reading-info")
+    public ApiResponse createUserReadingInfo(@RequestBody UserReadingInfoDto userReadingInfoDto) {
+        log.info("UserController: createUserReadingInfo() called");
+        return new ApiResponse(true, LocalDateTime.now().toString(),
+                "User reading info created successfully.", userReadingInfoService.create(userReadingInfoDto));
     }
 
     @PutMapping

@@ -11,6 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * @author Henry Azer
@@ -49,6 +50,14 @@ public class AuthorController implements BaseController<AuthorService> {
         log.info("AuthorController: createAuthor() called");
         return new ApiResponse(true, LocalDateTime.now().toString(),
                 "Author created successfully.", getService().create(authorDto));
+    }
+
+    @PostMapping("/create-list")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ApiResponse createAuthors(@RequestBody List<AuthorDto> authorDtos) {
+        log.info("AuthorController: createAuthors() called");
+        return new ApiResponse(true, LocalDateTime.now().toString(),
+                "Authors created successfully.", getService().create(authorDtos));
     }
 
     @PutMapping

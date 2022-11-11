@@ -3,7 +3,10 @@ package com.henry.bookrecommendationsystem.dto;
 import com.henry.bookrecommendationsystem.dto.base.BaseDto;
 import com.henry.bookrecommendationsystem.enums.UserGender;
 import com.henry.bookrecommendationsystem.enums.UserMartialStatus;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.Date;
 
@@ -13,7 +16,6 @@ import java.util.Date;
  */
 @Getter
 @Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDto extends BaseDto {

@@ -1,8 +1,10 @@
 package com.henry.bookrecommendationsystem.entity;
 
 import com.henry.bookrecommendationsystem.entity.base.BaseEntity;
-import com.henry.bookrecommendationsystem.enums.BookCategory;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -30,8 +32,15 @@ public class Book extends BaseEntity {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @Column(name = "category", nullable = false)
+    @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
     private BookCategory category;
+
+    @Column(name = "rate", nullable = false)
+    private Double rate;
+
+    @Column(name = "users_rate_count", nullable = false)
+    private Long usersRateCount;
 
     @Column(name = "price", nullable = false)
     private Double price;

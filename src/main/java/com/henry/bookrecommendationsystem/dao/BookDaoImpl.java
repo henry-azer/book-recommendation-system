@@ -33,10 +33,18 @@ public class BookDaoImpl implements BookDao {
     }
 
     @Override
+    public List<Book> findAllBooksByCategoriesAndLimit(List<String> categories, Integer limit) {
+        List<Book> books = getRepository().findAllByCategoryNameInAndMarkedAsDeletedFalse(categories);
+        if (books.size() <= limit) return books;
+        return books.subList(0, limit);
+    }
+
+    @Override
     public Page<Book> findAllBooksPaginatedAndFiltered(FilterPaginationRequest<BookFilterPaginationRequest> bookFilterPaginationRequest) {
         PageRequest pageRequest = getPageRequest(bookFilterPaginationRequest);
         BookFilterPaginationRequest criteria = bookFilterPaginationRequest.getCriteria();
-        if (criteria == null) return getRepository().findAll(pageRequest, bookFilterPaginationRequest.getDeletedRecords());
+        if (criteria == null)
+            return getRepository().findAll(pageRequest, bookFilterPaginationRequest.getDeletedRecords());
         return getRepository().findAllBooksPaginatedAndFiltered(criteria.getName(), criteria.getCategories(),
                 criteria.getFromPrice(), criteria.getToPrice(), criteria.getFromPagesNumber(), criteria.getToPagesNumber(),
                 criteria.getFromReadingDuration(), criteria.getToReadingDuration(), bookFilterPaginationRequest.getDeletedRecords(), pageRequest);
