@@ -30,7 +30,6 @@ public class UserServiceImpl implements UserService {
     private final JWTAuthenticationManager jwtAuthenticationManager;
     private final PasswordEncoder passwordEncoder;
 
-
     public UserServiceImpl(UserTransformer userTransformer, UserDao userDao, JWTAuthenticationManager jwtAuthenticationManager, @Lazy PasswordEncoder passwordEncoder) {
         this.userTransformer = userTransformer;
         this.userDao = userDao;

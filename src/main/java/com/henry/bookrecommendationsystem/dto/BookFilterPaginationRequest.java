@@ -1,7 +1,9 @@
 package com.henry.bookrecommendationsystem.dto;
 
-import com.henry.bookrecommendationsystem.enums.BookCategory;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.Set;
 
@@ -11,12 +13,11 @@ import java.util.Set;
  */
 @Getter
 @Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookFilterPaginationRequest {
     private String name;
-    private Set<BookCategory> categories;
+    private Set<String> categories;
     private Double fromPrice;
     private Double toPrice;
     private Integer fromPagesNumber;
@@ -24,7 +25,7 @@ public class BookFilterPaginationRequest {
     private Integer fromReadingDuration;
     private Integer toReadingDuration;
 
-    public Set<BookCategory> getCategories() {
+    public Set<String> getCategories() {
         if (categories.isEmpty()) return null;
         return categories;
     }

@@ -1,0 +1,722 @@
+[
+    {
+        "name": "Adam Wisniewski-Snerg",
+        "description": "Adam Wisniewski-Snerg was a Polish science fiction author. He was born in Prock, Poland. Although unpopular during his life, after his suicide he became recognized as one of the most significant authors of Polish SF",
+        "birthdate": "1937-01-01T00:00:00.000+00:00",
+        "deathdate": "1937-01-01T00:00:00.000+00:00",
+        "country": "Poland",
+        "age": 58,
+        "gender": "MALE",
+        "imageUrl": "https://terytoria.com.pl/img/c/10239.jpg"
+    },
+    {
+        "name": "Dave Eggers",
+        "description": "Dave Eggers is an American writer, editor, and publisher. He wrote the best-selling memoir A Heartbreaking Work of Staggering Genius. Eggers is also the founder of Timothy McSweeney's Quarterly Concern, a literary journal; a co-founder of the literacy project 826 Valencia and the human rights nonprofit Voice of Witness; and the founder of ScholarMatch, a program that matches donors with students needing funds for college tuition. His writing has appeared in several magazines.",
+        "birthdate": "1970-03-12T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Boston",
+        "age": 52,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Dave_Eggers_%2811483%29.jpg/330px-Dave_Eggers_%2811483%29.jpg"
+    },
+    {
+        "name": "Kurt Vonnegut",
+        "description": "Kurt Vonnegut Jr. was an American writer known for his satirical and darkly humorous novels. In a career spanning over 50 years, he published fourteen novels, three short-story collections, five plays, and five nonfiction works; further collections have been published after his death.",
+        "birthdate": "1922-11-11T00:00:00.000+00:00",
+        "deathdate": "2007-04-11T00:00:00.000+00:00",
+        "country": "Indianapolis",
+        "age": 84,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kurt_Vonnegut_1972.jpg/330px-Kurt_Vonnegut_1972.jpg"
+    },
+    {
+        "name": "J. O. Morgan",
+        "description": "John Pierpont Morgan Sr. was an American financier and investment banker who dominated corporate finance on Wall Street throughout the Gilded Age. As the head of the banking firm that ultimately became known as J.P. Morgan and Co., he was the driving force behind the wave of industrial consolidation in the United States spanning the late 19th and early 20th centuries.",
+        "birthdate": "1837-04-17T00:00:00.000+00:00",
+        "deathdate": "1913-03-31T00:00:00.000+00:00",
+        "country": "Roma",
+        "age": 75,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/JohnPierpontMorgan.png/330px-JohnPierpontMorgan.png"
+    },
+    {
+        "name": "Theo Clare",
+        "description": "Beatrice Clare Dunkel was a British author. Earlier in her life she worked as an actress and model under the name Candy Davis. She went on to write novels as Mo Hayder. One forthcoming book, The Book of Sand, will be published in 2022 under the name Theo Clare. She won an Edgar Award in 2012. Her best known work was Birdman",
+        "birthdate": "1962-01-02T00:00:00.000+00:00",
+        "deathdate": "2021-07-27T00:00:00.000+00:00",
+        "country": "England",
+        "age": 59,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Author_Mo_Hayder.jpg"
+    },
+    {
+        "name": "H. G. Wells",
+        "description": "Herbert George Wells was an English writer. Prolific in many genres, he wrote more than fifty novels and dozens of short stories. His non-fiction output included works of social commentary, politics, history, popular science, satire, biography and autobiography. Wells is now best remembered for his science fiction novels and has been called the 'father of science fiction.'",
+        "birthdate": "1866-09-21T00:00:00.000+00:00",
+        "deathdate": "1946-08-13T00:00:00.000+00:00",
+        "country": "England",
+        "age": 79,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/H.G._Wells_by_Beresford.jpg/330px-H.G._Wells_by_Beresford.jpg"
+    },
+    {
+        "name": "Tom Fletcher",
+        "description": "Tom Fletcher is a number-one bestseller and one of the UK's most popular children's authors.",
+        "birthdate": "1985-07-17T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "United kingdom",
+        "age": 37,
+        "gender": "MALE",
+        "imageUrl": "https://m.media-amazon.com/images/S/amzn-author-media-prod/k731qg1svfggps10hvbot0bfb2._SX450_.jpg"
+    },
+    {
+        "name": "Mur Lafferty",
+        "description": "Mur Lafferty is an American podcaster and writer based in Durham, North Carolina. She was the editor and host of Escape Pod from 2010, when she took over from Steve Eley, until 2012, when she was replaced by Norm Sherman. She is also the host and creator of the podcast I Should Be Writing. Until July 2007, she was host and co-editor of Pseudopod. She was the Editor-in-Chief of the Escape Artists short fiction magazine Mothership Zeta until it went on hiatus in 2016.",
+        "birthdate": "1973-07-25T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Durham",
+        "age": 49,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Mur_lafferty_headshot.jpg"
+    },
+    {
+        "name": "Una McCormack",
+        "description": "Una McCormack (born 13 January 1972) is a British-Irish academic, scriptwriter and novelist. She is the author of The Baba Yaga (2015) and The Star of the Sea (2016), two books in the Weird Space series from UK science fiction publisher Abaddon Books.",
+        "birthdate": "1972-01-13T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Merseyside",
+        "age": 50,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Una_McCormack.jpg"
+    },
+    {
+        "name": "Alexis Henderson",
+        "description": "Alexis Henderson is a speculative fiction writer with a penchant for dark fantasy, witchcraft, and cosmic horror. She grew up in one of America’s most haunted cities, Savannah, Georgia, which instilled in her a life-long love of ghost stories. When she doesn’t have her nose buried in a book, you can find her painting or watching horror movies with her feline familiar. Currently, Alexis resides in the sun-soaked marshland of Charleston, South Carolina.",
+        "birthdate": "1983-09-21T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "United States",
+        "age": 39,
+        "gender": "FEMALE",
+        "imageUrl": "https://images.gr-assets.com/authors/1608310330p5/16850185.jpg"
+    },
+    {
+        "name": "Francine Toon",
+        "description": "Toon was born in Canterbury, England, in 1986, and moved to the Scottish Highlands, near Dornoch, at the age of nine after living in England and Portugal. After two years the family moved to St Andrews on the coast of Fife, but the northern wilds have haunted her ever since, and form the backdrop to her debut novel She lives in London and works in publishing: as of 2020 she was an editor at Sceptre",
+        "birthdate": "1986-05-14T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Canterbury",
+        "age": 36,
+        "gender": "FEMALE",
+        "imageUrl": "https://static.wixstatic.com/media/19d453_ade3eec758b344ceb1bdb734e5fa1c60~mv2_d_2448_3264_s_4_2.jpg/v1/fill/w_271,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Francine%20Toon%20author%20photo%201_JPG.jpg"
+    },
+    {
+        "name": "Lynne Truss",
+        "description": "Lynne Truss is an English author, journalist, novelist, and radio broadcaster and dramatist. She is arguably best known for her championing of correctness and aesthetics in the English language, which is the subject of her popular and widely discussed 2003 book, Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation. The book was inspired by a BBC Radio 4 show about punctuation, Cutting a Dash, which she presented.",
+        "birthdate": "1955-03-31T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Kingston upon Thames",
+        "age": 67,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Lynne_Truss%2C_author_%2815906630064%29.jpg/330px-Lynne_Truss%2C_author_%2815906630064%29.jpg"
+    },
+    {
+        "name": "C. J. Tudor",
+        "description": "C.J. Tudor is a British author whose books include The Chalk Man and The Hiding Place (The Taking of Annie Thorne). She was born in Salisbury, England but grew up in Nottingham, where she still lives.",
+        "birthdate": "1984-11-04T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Salisbury",
+        "age": 38,
+        "gender": "FEMALE",
+        "imageUrl": "https://images.gr-assets.com/authors/1512059556p5/15754327.jpg"
+    },
+    {
+        "name": "Susan Hill",
+        "description": "Dame Susan Hill, Lady Wells, DBE (born 5 February 1942) is an English author of fiction and non-fiction works. Her novels include The Woman in Black, The Mist in the Mirror, and I'm the King of the Castle, for which she received the Somerset Maugham Award in 1971.",
+        "birthdate": "1942-02-05T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Scarborough",
+        "age": 80,
+        "gender": "FEMALE",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPco9BaYEXN2wyT5EXCc9TkDTQbN9OLKEER2vxk0_A1jZM9ji1"
+    },
+    {
+        "name": "Mary Shelley",
+        "description": "Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and women's rights advocate Mary Wollstonecraft.",
+        "birthdate": "1797-08-30T00:00:00.000+00:00",
+        "deathdate": "1851-02-01T00:00:00.000+00:00",
+        "country": "United kingdom",
+        "age": 53,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Mary_Wollstonecraft_Shelley_Rothwell.tif/lossy-page1-375px-Mary_Wollstonecraft_Shelley_Rothwell.tif.jpg"
+    },
+    {
+        "name": "Edgar Allan Poe",
+        "description": "Edgar Allan Poe was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature. Poe was one of the country's earliest practitioners of the short story, and considered to be the inventor of the detective fiction genre, as well as a significant contributor to the emerging genre of science fiction. Poe is the first well-known American writer to earn a living through writing alone, resulting in a financially difficult life and career.",
+        "birthdate": "1809-01-19T00:00:00.000+00:00",
+        "deathdate": "1849-10-07T00:00:00.000+00:00",
+        "country": "Boston",
+        "age": 40,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg"
+    },
+    {
+        "name": "E F Benson",
+        "description": "Edward Frederic Benson OBE was an English novelist, biographer, memoirist, archaeologist and short story writer.",
+        "birthdate": "1867-07-24T00:00:00.000+00:00",
+        "deathdate": "1940-02-29T00:00:00.000+00:00",
+        "country": "Berkshire",
+        "age": 72,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/E._F._Benson.jpg/330px-E._F._Benson.jpg"
+    },
+    {
+        "name": "colson whitehead",
+        "description": "Arch Colson Chipp Whitehead is an American novelist. He is the author of eight novels, including his 1999 debut work The Intuitionist; The Underground Railroad (2016), for which he won the 2016 National Book Award for Fiction and the 2017 Pulitzer Prize for Fiction; he won the Pulitzer Prize for Fiction again in 2020 for The Nickel Boys. He has also published two books of non-fiction. In 2002, he received a MacArthur Genius Grant.",
+        "birthdate": "1969-11-06T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "New York",
+        "age": 53,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Colson_whitehead_2014.jpg/330px-Colson_whitehead_2014.jpg"
+    },
+    {
+        "name": "Shirley Jackson",
+        "description": "Shirley Hardie Jackson was an American writer known primarily for her works of horror and mystery. Over the duration of her writing career, which spanned over two decades, she composed six novels, two memoirs, and more than 200 short stories.",
+        "birthdate": "1916-12-14T00:00:00.000+00:00",
+        "deathdate": "1965-08-08T00:00:00.000+00:00",
+        "country": "San Francisco",
+        "age": 48,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/ShirleyJack.jpg"
+    },
+    {
+        "name": "Bram Stoker",
+        "description": "Abraham Stoker was an Irish author who is celebrated for his 1897 Gothic horror novel Dracula. During his lifetime, he was better known as the personal assistant of actor Sir Henry Irving and business manager of the Lyceum Theatre, which Irving owned. In his early years, Stoker worked as a theatre critic for an Irish newspaper, and wrote stories as well as commentaries.",
+        "birthdate": "1847-11-08T00:00:00.000+00:00",
+        "deathdate": "1912-03-20T00:00:00.000+00:00",
+        "country": "Ireland",
+        "age": 64,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bram_Stoker_1906.jpg/330px-Bram_Stoker_1906.jpg"
+    },
+    {
+        "name": "Gabriel Garcia Marquez",
+        "description": "Gabriel José de la Concordia García Márquez     was a Colombian novelist, short-story writer, screenwriter, and journalist, known affectionately as Gabo. throughout Latin America. Considered one of the most significant authors of the 20th century, particularly in the Spanish language, he was awarded the 1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature.",
+        "birthdate": "1927-03-06T00:00:00.000+00:00",
+        "deathdate": "2014-04-17T00:00:00.000+00:00",
+        "country": "Spanish",
+        "age": 87,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/330px-Gabriel_Garcia_Marquez.jpg"
+    },
+    {
+        "name": "Leo Tolstoy",
+        "description": "Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time. He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909; the fact that he never won is a major controversy.",
+        "birthdate": "1828-09-09T00:00:00.000+00:00",
+        "deathdate": "1910-11-07T00:00:00.000+00:00",
+        "country": "Russian Empire",
+        "age": 82,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/330px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+    },
+    {
+        "name": "Harper Lee",
+        "description": "Nelle Harper Lee was an American novelist best known for her 1960 novel To Kill a Mockingbird. It won the 1961 Pulitzer Prize and has become a classic of modern American literature. Lee has received numerous accolades and honorary degrees, including the Presidential Medal of Freedom in 2007 which was awarded for her contribution to literature.",
+        "birthdate": "1926-04-28T00:00:00.000+00:00",
+        "deathdate": "2016-02-19T00:00:00.000+00:00",
+        "country": "United States",
+        "age": 89,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg/330px-Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg"
+    },
+    {
+        "name": "Anthony Burgess",
+        "description": "John Anthony Burgess Wilson, who published under the name Anthony Burgess, was an English writer and composer.",
+        "birthdate": "1917-02-25T00:00:00.000+00:00",
+        "deathdate": "1993-11-22T00:00:00.000+00:00",
+        "country": "England",
+        "age": 76,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Burgess1.jpg"
+    },
+    {
+        "name": "Sadeq Hedayat",
+        "description": "Sadegh Hedayat was an Iranian writer and translator. Best known for his novel The Blind Owl, he was one of the earliest Iranian writers to adopt literary modernism in their career.",
+        "birthdate": "1903-02-17T00:00:00.000+00:00",
+        "deathdate": "1951-04-09T00:00:00.000+00:00",
+        "country": "Imperial Iran",
+        "age": 48,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sadegh_Hedayat_colorized.jpg"
+    },
+    {
+        "name": "Georgette Heyer",
+        "description": "Georgette Heyer was an English novelist and short-story writer, in both the regency romance and detective fiction genres. Her writing career began in 1921, when she turned a story for her younger brother into the novel The Black Moth.",
+        "birthdate": "1902-08-16T00:00:00.000+00:00",
+        "deathdate": "1974-07-04T00:00:00.000+00:00",
+        "country": "England",
+        "age": 72,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/Georgette_Heyer.jpg"
+    },
+    {
+        "name": "Oscar Wilde",
+        "description": "Oscar Fingal O'Flahertie Wills Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, he became one of the most popular playwrights in London in the early 1890s. He is best remembered for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his criminal conviction for gross indecency for consensual homosexual acts in 'one of the first celebrity trials', imprisonment, and early death from meningitis at age 46.",
+        "birthdate": "1854-10-16T00:00:00.000+00:00",
+        "deathdate": "1900-11-30T00:00:00.000+00:00",
+        "country": "Ireland",
+        "age": 46,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Oscar_Wilde_3g07095u-adjust.jpg/330px-Oscar_Wilde_3g07095u-adjust.jpg"
+    },
+    {
+        "name": "Harold Sonny Ladoo",
+        "description": "Harold Sonny Ladoo was a Caribbean novelist, who was the author of two books documenting the struggles of living in poverty in the Hindu communities of Trinidad and Tobago. He moved to Canada in 1968 and was mysteriously murdered while on a visit to Trinidad in 1973.",
+        "birthdate": "1945-04-07T00:00:00.000+00:00",
+        "deathdate": "1973-08-17T00:00:00.000+00:00",
+        "country": "Trinidad",
+        "age": 38,
+        "gender": "MALE",
+        "imageUrl": "https://library.torontomu.ca/asianheritage/files/2012/06/ladoo.gif"
+    },
+    {
+        "name": "Kahlil Gibran",
+        "description": "Gibran Khalil Gibran was a Lebanese-American writer, poet and visual artist, also considered a philosopher although he himself rejected the title. He is best known as the author of The Prophet, which was first published in the United States in 1923 and has since become one of the best-selling books of all time, having been translated into more than 100 languages.",
+        "birthdate": "1883-01-06T00:00:00.000+00:00",
+        "deathdate": "1931-04-10T00:00:00.000+00:00",
+        "country": "Lebanon",
+        "age": 48,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Kahlil_Gibran_1913.jpg"
+    },
+    {
+        "name": "Clive Cussler",
+        "description": "Clive Eric Cussler was an American adventure novelist and underwater explorer. His thriller novels, many featuring the character Dirk Pitt, have reached The New York Times fiction best-seller list more than 20 times. Cussler was the founder and chairman of the National Underwater and Marine Agency (NUMA), which has discovered more than 60 shipwreck sites and numerous other notable underwater wrecks. He was the sole author or lead author of more than 80 books.",
+        "birthdate": "1931-07-15T00:00:00.000+00:00",
+        "deathdate": "2020-02-24T00:00:00.000+00:00",
+        "country": "Arizona",
+        "age": 88,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Clive_Cussler_%282011%29.jpg/375px-Clive_Cussler_%282011%29.jpg"
+    },
+    {
+        "name": "Robert Harris",
+        "description": "Robert Dennis Harris is a British novelist and former journalist. Although he began his career in journalism and non-fiction, his fame rests upon his works of historical fiction. Beginning with the best-seller Fatherland, Harris focused on events surrounding the Second World War, followed by works set in ancient Rome. His most recent works centre on contemporary history. Harris was educated at Selwyn College, Cambridge, where he was president of the Cambridge Union and editor of the student newspaper Varsity.",
+        "birthdate": "1957-03-07T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 65,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Robert_Harris01.jpg/330px-Robert_Harris01.jpg"
+    },
+    {
+        "name": "George Psychoundakis",
+        "description": "George Psychoundakis BEM was a member of the Greek Resistance on Crete during the Second World War and after the war an author. Following the German invasion, between 1941 and 1945, he served as a despatch runner for the Special Operations Executive (SOE) operations on Crete, as part of the Cretan resistance. During the postwar years he was at first mistakenly imprisoned as a deserter. While in prison he wrote his wartime memoirs, which were published as The Cretan Runner. Later he translated key classical Greek texts into the Cretan dialect.",
+        "birthdate": "1920-11-03T00:00:00.000+00:00",
+        "deathdate": "2006-01-29T00:00:00.000+00:00",
+        "country": "Greek",
+        "age": 86,
+        "gender": "MALE",
+        "imageUrl": "https://patrickleighfermor.files.wordpress.com/2010/05/george-psychoundakis.jpg"
+    },
+    {
+        "name": "John Buchan",
+        "description": "John Buchan, 1st Baron Tweedsmuir GCMG GCVO CH PC DL was a Scottish novelist, historian, and Unionist politician who served as Governor General of Canada, the 15th since Canadian Confederation.",
+        "birthdate": "1875-08-26T00:00:00.000+00:00",
+        "deathdate": "1940-02-11T00:00:00.000+00:00",
+        "country": "Canada",
+        "age": 35,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lord_tweedsmuiir.jpg/330px-Lord_tweedsmuiir.jpg"
+    },
+    {
+        "name": "Michael Crichton",
+        "description": "John Michael Crichton was an American author and filmmaker. His books have sold over 200 million copies worldwide, and over a dozen have been adapted into films. His literary works heavily feature technology and are usually within the science fiction, techno-thriller, and medical fiction genres. His novels often explore technology and failures of human interaction with it, especially resulting in catastrophes with biotechnology. Many of his novels have medical or scientific underpinnings, reflecting his medical training and scientific background.",
+        "birthdate": "1942-10-23T00:00:00.000+00:00",
+        "deathdate": "2008-11-04T00:00:00.000+00:00",
+        "country": "United States",
+        "age": 66,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/MichaelCrichton_2.jpg/330px-MichaelCrichton_2.jpg"
+    },
+    {
+        "name": "Andy Weir",
+        "description": "Andrew Taylor Weir is an American novelist and former computer programmer. His 2011 novel The Martian was adapted into the 2015 film of the same name directed by Ridley Scott. He received the John W. Campbell Award for Best New Writer in 2016 and his 2021 novel Project Hail Mary is a finalist for the 2022 Hugo Award for Best Novel.",
+        "birthdate": "1972-06-16T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "California",
+        "age": 50,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/NASA_Journey_to_Mars_and_%E2%80%9CThe_Martian%22_%28201508180048HQ%29.jpg/330px-NASA_Journey_to_Mars_and_%E2%80%9CThe_Martian%22_%28201508180048HQ%29.jpg"
+    },
+    {
+        "name": "Dan Brown",
+        "description": "Daniel Gerhard Brown (born June 22, 1964) is an American author best known for his thriller novels, including the Robert Langdon novels Angels & Demons (2000), The Da Vinci Code (2003), The Lost Symbol (2009), Inferno (2013), and Origin (2017). His novels are treasure hunts which usually take place over a period of 24 hours. They feature recurring themes of cryptography, art, and conspiracy theories. His books have been translated into 57 languages and, as of 2012, have sold over 200 million copies. Three of them, Angels & Demons, The Da Vinci Code, and Inferno, have been adapted into films.",
+        "birthdate": "1964-06-22T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "New Hampshire",
+        "age": 58,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Dan_Brown_bookjacket_cropped.jpg/330px-Dan_Brown_bookjacket_cropped.jpg"
+    },
+    {
+        "name": "Marc Cameron",
+        "description": "Marc Cameron is an American novelist. He is best known for the Jack Ryan series, which is part of the Tom Clancy universe, as well as for the critically acclaimed Jericho Quinn series of action adventure novels.",
+        "birthdate": "1961-07-15T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Texas",
+        "age": 61,
+        "gender": "MALE",
+        "imageUrl": "https://marccameronbooks.com/wp-content/uploads/2019/11/M38fd582f01239b50588b0060a16ce4f51573590045445.png"
+    },
+    {
+        "name": "Emma Morgan",
+        "description": "Emma Morgan was born in Guernsey and lives in Liverpool. She studied history at Liverpool University and Theatre at Essex University before deciding to move to Spain, where she taught English for five years. She has also worked as a support worker and for BBC local radio. A Love Story for Bewildered Girls is her first novel.",
+        "birthdate": "1988-08-07T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Guernsey",
+        "age": 34,
+        "gender": "FEMALE",
+        "imageUrl": "http://www.collectivetalent.co.uk/uploads/1/8/4/6/18461164/published/img-20170819-132545823-hdr.jpg?1595231037"
+    },
+    {
+        "name": "Howard Jacobson",
+        "description": "Howard Eric Jacobson is a British novelist and journalist. He is known for writing comic novels that often revolve around the dilemmas of British Jewish characters. He is a Booker Prize winner.",
+        "birthdate": "1942-08-25T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Manchester",
+        "age": 80,
+        "gender": "MALE",
+        "imageUrl": "https://i.guim.co.uk/img/media/3242bc28387bdfe89aed4e9d1bcf3b9fd6bfd16e/462_98_2385_1431/master/2385.jpg?width=620&quality=45&dpr=2&s=none"
+    },
+    {
+        "name": "Jane Sanderson",
+        "description": "Sanderson was educated at Kirk Balk School near Barnsley, and at Leicester University. She was a newspaper journalist before joining the BBC, where she was a producer on The World At One, PM, and Woman's Hour.",
+        "birthdate": "1962-08-17T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Barnsley",
+        "age": 60,
+        "gender": "FEMALE",
+        "imageUrl": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/contributor-jane-sanderson-27.jpg?"
+    },
+    {
+        "name": "Jojo Moyes",
+        "description": "Pauline Sara Jo Moyes, known professionally as Jojo Moyes, is an English journalist and, since 2002, an award-winning romance novelist, #1 New York Times best selling author and screenwriter. She is one of only a few authors to have twice won the Romantic Novel of the Year Award by the Romantic Novelists' Association and her works have been translated into twenty-eight languages and have sold over 40 million copies worldwide.",
+        "birthdate": "1969-08-04T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 53,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Paris_-_Salon_du_livre_de_Paris_2017_-_Jojo_Moyes_-_001_%28cropped%29.jpg/330px-Paris_-_Salon_du_livre_de_Paris_2017_-_Jojo_Moyes_-_001_%28cropped%29.jpg"
+    },
+    {
+        "name": "Isabelle Broom",
+        "description": "Isabelle Broom was born in Cambridge nine days before the 1980s began and studied Media Arts in London before joining the ranks at Heat magazine, where she remains the Book Reviews editor. Always happiest when she is off on an adventure, Isabelle now travels all over the world seeking out settings for her novels",
+        "birthdate": "1979-12-21T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Cambridge",
+        "age": 43,
+        "gender": "FEMALE",
+        "imageUrl": "https://wp.penguin.co.uk/wp-content/uploads/2022/04/contributor-60.jpg?"
+    },
+    {
+        "name": "Anne Youngson",
+        "description": "Anne Youngson worked for many years in senior management in the car industry before embarking on a creative career as a writer. She has supported many charities in governance roles, including Chair of the Writers in Prison Network, which provided residencies in prisons for writers.",
+        "birthdate": "1947-04-12T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "London",
+        "age": 75,
+        "gender": "FEMALE",
+        "imageUrl": "https://greeneheaton.co.uk/wp-content/uploads/2017/06/Anne-Youngson-440x500.png"
+    },
+    {
+        "name": "Marian Keyes",
+        "description": "Marian Keyes is an Irish author and radio presenter. She is principally known for her popular fiction.",
+        "birthdate": "1963-09-10T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Limerick",
+        "age": 59,
+        "gender": "FEMALE",
+        "imageUrl": "https://i.guim.co.uk/img/media/2b03e894a9e8ab23556db787d677d2afca72a8ab/0_1929_4920_2951/master/4920.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=3ee93eda7ba83845ba136fa9bf81618b"
+    },
+    {
+        "name": "Lisa Jewell",
+        "description": "Lisa Jewell is a British author of popular fiction. Her books include Ralph's Party, Thirtynothing, After The Party (a sequel to Ralph's Party), and later Then She Was Gone, The House We Grew Up In and The Girls in the Garden.",
+        "birthdate": "1968-07-19T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "London",
+        "age": 54,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lisa_Jewell_Official_Author_Photo.jpg/330px-Lisa_Jewell_Official_Author_Photo.jpg"
+    },
+    {
+        "name": "Roald Dahl",
+        "description": "Roald Dahl[a] was a British novelist, short-story writer, poet, screenwriter, and wartime fighter ace of Norwegian descent. His books have sold more than 250 million copies worldwide. Dahl has been called 'one of the greatest storytellers for children of the 20th century'.",
+        "birthdate": "1916-09-13T00:00:00.000+00:00",
+        "deathdate": "1990-11-23T00:00:00.000+00:00",
+        "country": "Cardiff",
+        "age": 74,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roald_Dahl.jpg/330px-Roald_Dahl.jpg"
+    },
+    {
+        "name": "Adam Kay",
+        "description": "Adam Richard Kay is a British comedy writer, author, comedian and former doctor. His television writing credits include Crims, Mrs. Brown's Boys and Mitchell and Webb. He is best known as author of the number-one bestselling book This Is Going to Hurt.",
+        "birthdate": "1980-06-12T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Brighton",
+        "age": 42,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Adam_Kay_20171207_02.jpg/330px-Adam_Kay_20171207_02.jpg"
+    },
+    {
+        "name": "Leisa Stewart-Sharpe",
+        "description": "Leisa Stewart-Sharpe is a trained journalist turned children's book author, who writes stunning children's non-fiction and picture books. Her Australian childhood inspired her love for the natural world - and the stories of its strange and wonderful creatures. Her bestselling first non-fiction book, Blue Planet II, has been translated into several languages around the world.",
+        "birthdate": "1975-01-27T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 47,
+        "gender": "FEMALE",
+        "imageUrl": "https://pbs.twimg.com/profile_images/837338424889786373/kdUhnZx-_400x400.jpg"
+    },
+    {
+        "name": "Jacqueline Wilson",
+        "description": "Dame Jacqueline Wilson DBE FRSL (née Aitken; born 17 December 1945) is an English novelist known for her popular children's literature. Her novels have been notable for featuring realistic topics such as adoption and divorce without alienating her large readership. Since her debut novel in 1969, Wilson has written over 100 books.",
+        "birthdate": "1945-12-17T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 76,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jacqueline_Wilson.JPG/330px-Jacqueline_Wilson.JPG"
+    },
+    {
+        "name": "Dick King-Smith",
+        "description": "Ronald Gordon King-Smith OBE Hon.MEd was an English writer of children's books, primarily using the pen name Dick King-Smith. He is best known for The Sheep-Pig (1983, Babe the Gallant Pig US title). It was adapted as the movie Babe (1995) and translations have been published in fifteen languages. He was awarded an Honorary Master of Education degree by the University of the West of England in 1999 and appointed Officer of the Order of the British Empire (OBE) in the 2010 New Year Honours.",
+        "birthdate": "1922-03-27T00:00:00.000+00:00",
+        "deathdate": "2011-01-04T00:00:00.000+00:00",
+        "country": "Bitton",
+        "age": 88,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dick_King-Smith.jpg/330px-Dick_King-Smith.jpg"
+    },
+    {
+        "name": "Beatrix Potter",
+        "description": "Helen Beatrix Potter was an English writer, illustrator, natural scientist, and conservationist. She is best known for her children's books featuring animals, such as The Tale of Peter Rabbit, which was her first published work in 1902. Her books, including 23 Tales, have sold more than 250 million copies. Potter was also a pioneer of merchandising-in 1903, Peter Rabbit was the first fictional character to be made into a patented stuffed toy, making him the oldest licensed character.",
+        "birthdate": "1866-07-28T00:00:00.000+00:00",
+        "deathdate": "1943-12-22T00:00:00.000+00:00",
+        "country": "London",
+        "age": 77,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Beatrix_Potter_by_King_cropped.jpg"
+    },
+    {
+        "name": "Kim Hillyard",
+        "description": "After completing a degree in Drama at the University of Exeter, Kim Hillyard spent nine years working as a music journalist for various publications, including NME, Time Out and the BBC. She has also worked as a drama and arts facilitator, delivering assemblies, storytelling and workshops in schools, bookshops and community spaces on everything from phonics to creative writing. Kim's debut picture book, Mabel and the Mountain, won the 2020 Sainsbury's Children's Book Award and her second title (Ned and the Great Garden Hamster Race) was released in January 2021.",
+        "birthdate": "1988-09-13T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "United kingdom",
+        "age": 34,
+        "gender": "FEMALE",
+        "imageUrl": "https://pbs.twimg.com/profile_images/1269736455015927808/ZjyTJiJg_400x400.jpg"
+    },
+    {
+        "name": "Sharna Jackson",
+        "description": "Sharna Jackson is a British writer of children's fiction. She is the author of a mystery series, aimed at middle-grade readers, featuring Nik and Norva, a pair of black sisters, who solve crimes on an estate, the Tri Estate, in South London.[2] Jackson is also an influential curator in the arts, including working with Tate, Victoria and Albert Museum and Design museum in London, and working as artistic director for Site Gallery in Sheffield from July 2018 to November 2020, engaging children in developing digital initiatives in the arts.",
+        "birthdate": "1978-11-08T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "New York",
+        "age": 44,
+        "gender": "FEMALE",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/5cd9631a4d546e16d410f256/1557766189873-DJQJPGQMPLNDU488FFDQ/Ensemble-2019-JPEGs-1.jpg"
+    },
+    {
+        "name": "Ta-Nehisi Coates",
+        "description": "Ta-Nehisi Paul Coates is an American author and journalist. He gained a wide readership during his time as national correspondent at The Atlantic, where he wrote about cultural, social, and political issues, particularly regarding African Americans and white supremacy. Coates has worked for The Village Voice, Washington City Paper, and TIME. He has contributed to The New York Times Magazine, The Washington Post, The Washington Monthly, O, and other publications.",
+        "birthdate": "1975-09-30T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Baltimore",
+        "age": 47,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ta-Nehisi_Coates.jpg/330px-Ta-Nehisi_Coates.jpg"
+    },
+    {
+        "name": "Christopher Harding",
+        "description": "Christopher Harding is a cultural historian of modern India and Japan, lecturer in Asian history at the University of Edinburgh, broadcaster and journalist. His series on culture and mental health, The Borders of Sanity, was broadcast on BBC Radio 4 and the BBC World Service in 2016.",
+        "birthdate": "1978-07-17T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 44,
+        "gender": "MALE",
+        "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcREtATehkcJmZZ4kXNCnje-ctkozrGE_IJzxWiMGrBzbnipI7vI"
+    },
+    {
+        "name": "Piers Brendon",
+        "description": "Piers Brendon FRSL is a British historian and writer, known for historical and biographical works. He was educated at Shrewsbury School and Magdalene College, Cambridge, where he read history. He received a Ph.D. degree for his thesis, Hurrell Froude and the Oxford Movement, which was published, with much modification, in 1974.",
+        "birthdate": "1940-12-21T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Stratton",
+        "age": 81,
+        "gender": "MALE",
+        "imageUrl": "https://www.chu.cam.ac.uk/wp-content/uploads/2021/12/Piers-Brendon.jpg"
+    },
+    {
+        "name": "Ian Blatchford",
+        "description": "Sir Ian Craig Blatchford, FSA is the director of the Science Museum Group, which oversees the Science Museum in London, England and other related museums. He was previously deputy director of the Victoria and Albert Museum, opposite the Science Museum on Exhibition Road in South Kensington, southwest London.",
+        "birthdate": "1965-08-17T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Ireland",
+        "age": 57,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ian_Blatchford_-_Kolkata_2012-03-20_9312_Cropped.JPG/270px-Ian_Blatchford_-_Kolkata_2012-03-20_9312_Cropped.JPG"
+    },
+    {
+        "name": "David Abulafia",
+        "description": "David Abulafia FSA FRHistS FBA is an English historian with a particular interest in Italy, Spain and the rest of the Mediterranean during the Middle Ages and Renaissance. He spent most of his career at the University of Cambridge, rising to become a professor at the age of 50.",
+        "birthdate": "1949-12-12T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Twickenham",
+        "age": 72,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/David_Abulafia_%28cropped%29.jpg/330px-David_Abulafia_%28cropped%29.jpg"
+    },
+    {
+        "name": "Horatio Clare",
+        "description": "Horatio Clare (born 1973) is an author known for travel, memoir, nature and children's books. He worked at the BBC as a producer on Front Row (BBC Radio 4), Night Waves and The Verb (BBC Radio 3).",
+        "birthdate": "1973-11-08T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "London",
+        "age": 49,
+        "gender": "MALE",
+        "imageUrl": "https://media.vanityfair.com/photos/5bfd1613296c752cecdfdf5c/1:1/w_640,h_640,c_limit/Horatio-Clare-at-Hay-Festival-2017-credit-Paul-Musso.jpg"
+    },
+    {
+        "name": "Sathnam Sanghera",
+        "description": "Sathnam Sanghera was born to Indian Punjabi parents in Wolverhampton in 1976. His parents had emigrated from India to the UK in 1968. He was raised a Punjabi boy. He attended Wolverhampton Grammar School and graduated from Christ's College, Cambridge, with a first-class degree in English Language and Literature in 1998.",
+        "birthdate": "1976-09-04T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Indian",
+        "age": 46,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sathnam_Sanghera_for_the_British_Library.jpg/330px-Sathnam_Sanghera_for_the_British_Library.jpg"
+    },
+    {
+        "name": "Adam Higginbotham",
+        "description": "Adam Higginbotham is a British journalist who is the former U.S. correspondent for The Sunday Telegraph Magazine and former editor-in-chief of The Face. He has also served as a contributing writer for The New Yorker, Wired, and The New York Times.",
+        "birthdate": "1968-10-07T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Somerset",
+        "age": 54,
+        "gender": "MALE",
+        "imageUrl": "https://www.chicagotribune.com/resizer/zrCxzK_AbvKxp1F5xRTx0rXdFSk=/960x540/filters:quality(80)/arc-goldfish-tronc-thumbnails.s3.amazonaws.com/04-14-2019/t_09c34337a28b4110aefe9660570c1fc2_name_la_books_video_playlist_ah_20190414_scaled.jpg"
+    },
+    {
+        "name": "David Montenegro",
+        "description": "Wing Commander David Montenegro OBE MA RAF, known as Monty, commands a team of Royal Air Force regular and reserve personnel, working alongside civil service colleagues, who deliver a precise, dynamic and world-renowned 'soft' power capability, in support of national interests, at home and across the globe. ",
+        "birthdate": "1975-06-11T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 47,
+        "gender": "MALE",
+        "imageUrl": "https://www.raf.mod.uk/sites/raf-beta/assets/Image/Red%20Arrows/SCA-Official-20200331-292-041.jpg"
+    },
+    {
+        "name": "P. G. Wodehouse",
+        "description": "Sir Pelham Grenville Wodehouse was an English author and one of the most widely read humorists of the 20th century. His creations include the feather-brained Bertie Wooster and his sagacious valet, Jeeves; the immaculate and loquacious Psmith; Lord Emsworth and the Blandings Castle set; the Oldest Member, with stories about golf; and Mr Mulliner, with tall tales on subjects ranging from bibulous bishops to megalomaniac movie moguls.",
+        "birthdate": "1881-10-15T00:00:00.000+00:00",
+        "deathdate": "1975-02-14T00:00:00.000+00:00",
+        "country": "England",
+        "age": 96,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/P.G._Wodehouse%2C_1930.jpg/330px-P.G._Wodehouse%2C_1930.jpg"
+    },
+    {
+        "name": "Zlatan Ibrahimovic",
+        "description": "Zlatan Ibrahimović is a Swedish professional footballer who plays as a striker for Serie A club AC Milan and the Sweden national team. Ibrahimović is renowned for his acrobatic strikes and volleys, powerful long-range shots, and excellent technique and ball control. He is regarded as one of the greatest strikers of all time and is one of the most decorated active footballers in the world, having won 34 trophies in his career. He has scored over 570 career goals, including more than 500 club goals, and has scored in each of the last four decades.",
+        "birthdate": "1981-10-03T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Sweden",
+        "age": 41,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg/330px-Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
+    },
+    {
+        "name": "Richard Askwith",
+        "description": "Richard Askwith is a British journalist and author.He is best-known for the cult 2004 fell running book Feet in the Clouds, which won him the Best New Writer prize at the Sports Book Awards. The book was also shortlisted for the William Hill Sports Book of the Year and the Boardman Tasker Prize for Mountain Literature.",
+        "birthdate": "1960-10-08T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "England",
+        "age": 62,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Richard_Askwith_2010.jpg"
+    },
+    {
+        "name": "Nicola Adams",
+        "description": "Nicola Virginia Adams OBE is a British former professional boxer who competed from 2017 to 2019. She retired with an undefeated record and held the WBO female flyweight title in 2019. As an amateur, she became the first female boxer to become an Olympic champion after winning gold at London 2012, and the first double Olympic champion following a second gold medal at Rio 2016, both in the flyweight division.",
+        "birthdate": "1982-10-26T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "West Yorkshire",
+        "age": 40,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Nicola_Adams_-_Our_Greatest_Team_Parade.jpg/330px-Nicola_Adams_-_Our_Greatest_Team_Parade.jpg"
+    },
+    {
+        "name": "Ed Warner",
+        "description": "Edward L. Warner was an American college basketball player. He was one of the stars of the 1949-50 CCNY Beavers men's basketball team, the only team to win both the NCAA tournament and the National Invitation Tournament (NIT) in the same year. He was also a central figure in the point shaving scandal that came to light in the aftermath of that season.",
+        "birthdate": "1929-07-05T00:00:00.000+00:00",
+        "deathdate": "2002-09-07T00:00:00.000+00:00",
+        "country": "New York",
+        "age": 73,
+        "gender": "MALE",
+        "imageUrl": "https://www.thedraftreview.com/images/honorabledraftee/ed-warner.jpg"
+    },
+    {
+        "name": "John D. Barrow",
+        "description": "John David Barrow FRS was an English cosmologist, theoretical physicist, and mathematician. He served as Gresham Professor of Geometry at Gresham College from 2008 to 2011. Barrow was also a writer of popular science and an amateur playwright.",
+        "birthdate": "1952-11-29T00:00:00.000+00:00",
+        "deathdate": "2020-09-26T00:00:00.000+00:00",
+        "country": "London",
+        "age": 67,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Barrow.jpg/330px-John_Barrow.jpg"
+    },
+    {
+        "name": "Bear Grylls",
+        "description": "Edward Michael 'Bear' Grylls OBE (born 7 June 1974) is a British adventurer, writer, television presenter and businessman. He first drew attention after embarking on a number of adventures, and then became widely known for his television series Man vs. Wild (2006–2011).",
+        "birthdate": "1974-06-07T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "London",
+        "age": 48,
+        "gender": "MALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Coventry_Scouts_groups_have_a_visit_from_Bear_Grylls.jpg/330px-Coventry_Scouts_groups_have_a_visit_from_Bear_Grylls.jpg"
+    },
+    {
+        "name": "Billie Jean King",
+        "description": "Billie Jean King is an American former world No. 1 tennis player. King won 39 major titles: 12 in singles, 16 in women's doubles, and 11 in mixed doubles. King was a member of the victorious United States team in seven Federation Cups and nine Wightman Cups. For three years, she was the U.S. captain in the Federation Cup.",
+        "birthdate": "1943-11-23T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "California",
+        "age": 78,
+        "gender": "FEMALE",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/BJK_headshot_2011_5x7_300dpi.jpg/330px-BJK_headshot_2011_5x7_300dpi.jpg"
+    },
+    {
+        "name": "Lee Newbery",
+        "description": "Lee Newbery lives with his husband, son and two dogs in a seaside town in West Wales. By day, he helps vulnerable people look for jobs and gain new skills, and by night, he sits down at his laptop to write.",
+        "birthdate": "1977-05-08T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Poland",
+        "age": 45,
+        "gender": "MALE",
+        "imageUrl": "https://storage.googleapis.com/lr-assets/kids/authors/1645700633-lee-newbery--the-last-firefox--credit-desiree-adams-(sq).jpg"
+    },
+    {
+        "name": "Chris Smith",
+        "description": "Chris Smith has wanted to be an author ever since he was eight and won a competition by writing a story about a baby dinosaur who loved biscuits. That story is soon to be brought to life as a blockbuster Hollywood movie. Not really, he made that part up.",
+        "birthdate": "1974-12-15T00:00:00.000+00:00",
+        "deathdate": null,
+        "country": "Ireland",
+        "age": 48,
+        "gender": "MALE",
+        "imageUrl": "https://pbs.twimg.com/profile_images/1317715382556368896/S8PrS9RY_400x400.jpg"
+    }
+]

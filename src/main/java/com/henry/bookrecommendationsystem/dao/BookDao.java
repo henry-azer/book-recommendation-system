@@ -16,5 +16,7 @@ import java.util.List;
 public interface BookDao extends BaseDao<Book, BookRepository> {
     List<Book> findAllBooksByAuthorId(Long authorId);
 
+    List<Book> findAllBooksByCategoriesAndLimit(List<String> categories, Integer limit);
+
     Page<Book> findAllBooksPaginatedAndFiltered(FilterPaginationRequest<BookFilterPaginationRequest> bookFilterPaginationRequest);
 }

@@ -23,5 +23,7 @@ CREATE TABLE IF NOT EXISTS user
     modified_by       CHARACTER VARYING(100) NOT NULL,
     marked_as_deleted BOOLEAN                NOT NULL DEFAULT FALSE,
 
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    CONSTRAINT user_email_unq UNIQUE KEY (email)
+
 );

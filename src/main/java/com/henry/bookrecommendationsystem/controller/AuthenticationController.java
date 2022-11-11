@@ -42,7 +42,7 @@ public class AuthenticationController {
     }
 
     @PostMapping("/refresh-token")
-    @PreAuthorize("hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_USER')")
     public ApiResponse refreshToken(@Valid @RequestBody RefreshTokenRequest refreshTokenRequest) {
         log.info("AuthenticationController: refreshToken() called");
         return new ApiResponse(true, LocalDateTime.now().toString(),
