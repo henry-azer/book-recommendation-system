@@ -20,11 +20,12 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name = "user")
+@Table(name = "user", schema = "public")
 public class User extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name = "user_id_sequence", sequenceName = "user_id_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_id_sequence")
     private Long id;
 
     @Column(name = "first_name", nullable = false)

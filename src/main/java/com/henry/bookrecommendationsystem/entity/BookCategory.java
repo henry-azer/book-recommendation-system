@@ -17,11 +17,12 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-@Table(name = "book_category")
+@Table(name = "book_category", schema = "public")
 public class BookCategory extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name = "book_category_id_sequence", sequenceName = "book_category_id_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "book_category_id_sequence")
     private Long id;
 
     @Column(name = "name", nullable = false, unique = true)

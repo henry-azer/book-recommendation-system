@@ -19,11 +19,12 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name = "author")
+@Table(name = "author", schema = "public")
 public class Author extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name = "author_id_sequence", sequenceName = "author_id_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "author_id_sequence")
     private Long id;
 
     @Column(name = "name", nullable = false)
