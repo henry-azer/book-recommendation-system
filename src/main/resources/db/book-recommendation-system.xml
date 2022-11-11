@@ -6,6 +6,10 @@
     <include file="db/chengelog/20221104_user-table.sql"/>
     <include file="db/chengelog/20221105_refresh-token-table.sql"/>
     <include file="db/chengelog/20221105_author-table.sql"/>
+    <include file="db/chengelog/20221110_book-category-table.sql"/>
     <include file="db/chengelog/20221105_book-table.sql"/>
+    <include file="db/chengelog/20221108_user-book-rate-table.sql"/>
+    <include file="db/chengelog/20221110_user-book-category-table.sql"/>
+    <include file="db/chengelog/20221110_user-info-table.sql"/>
 
 </databaseChangeLog>

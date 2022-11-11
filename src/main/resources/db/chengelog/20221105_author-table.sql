@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS author
     age               INT                    NOT NULL,
     gender            CHARACTER VARYING(50)  NOT NULL,
     description       TEXT                   NOT NULL,
-    image_url         CHARACTER VARYING(150) NOT NULL,
+    image_url         CHARACTER VARYING(250) NOT NULL,
 
     created_date      TIMESTAMP              NOT NULL,
     modified_date     TIMESTAMP              NOT NULL,
@@ -20,5 +20,7 @@ CREATE TABLE IF NOT EXISTS author
     modified_by       CHARACTER VARYING(100) NOT NULL,
     marked_as_deleted BOOLEAN                NOT NULL DEFAULT FALSE,
 
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    CONSTRAINT author_name_unq UNIQUE KEY (name)
+
 );
