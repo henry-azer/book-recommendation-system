@@ -18,11 +18,12 @@ import static javax.persistence.CascadeType.*;
 @Getter
 @Setter
 @Entity
-@Table(name = "user_reading_info")
+@Table(name = "user_reading_info", schema = "public")
 public class UserReadingInfo extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name = "user_reading_info_id_sequence", sequenceName = "user_reading_info_id_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_reading_info_id_sequence")
     private Long id;
 
     @OneToOne
