@@ -25,8 +25,10 @@ public class JWTAuthenticationUtil {
     private String JWT_ACCESS_TOKEN_EXPIRATION_MS;
 
     public String generateAccessToken(String email) throws JWTCreationException {
+//        return JWT.create().withSubject("Library Authentication").withIssuer("Henry").withIssuedAt(new Date())
+//                .withExpiresAt(getAccessTokenExpireDate()).withClaim("email", email).sign(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET));
         return JWT.create().withSubject("Library Authentication").withIssuer("Henry").withIssuedAt(new Date())
-                .withExpiresAt(getAccessTokenExpireDate()).withClaim("email", email).sign(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET));
+                .withClaim("email", email).sign(Algorithm.HMAC256(JWT_AUTHENTICATION_SECRET));
     }
 
     public String getAccessTokenUserEmail(String accessToken) {
