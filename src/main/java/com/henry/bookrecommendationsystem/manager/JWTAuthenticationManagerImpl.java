@@ -43,7 +43,7 @@ public class JWTAuthenticationManagerImpl implements JWTAuthenticationManager {
             return new AuthResponse(jwtAuthenticationUtil.generateAccessToken(authRequest.getEmail()), Long.valueOf(JWT_ACCESS_TOKEN_EXPIRATION_MS),
                     refreshTokenService.createRefreshToken(authRequest.getEmail()).getToken(), Long.valueOf(JWT_REFRESH_TOKEN_EXPIRATION_MS));
         } catch (AuthenticationException authenticationException) {
-            throw new RuntimeException("Invalid username or password");
+            throw new RuntimeException("Invalid email or password");
         }
     }
 
