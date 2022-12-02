@@ -15,8 +15,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
+import org.springframework.web.cors.CorsConfigurationSource;
+
+import java.util.Collections;
 
 /**
  * @author Henry Azer
@@ -49,19 +50,23 @@ public class SecurityConfigurations {
     }
 
     @Bean
-    public CorsFilter corsFilter() {
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration config = new CorsConfiguration();
-        config.setAllowCredentials(true);
-        config.addAllowedOrigin("*");
-        config.addAllowedHeader("*");
-        config.addAllowedMethod("*");
-        source.registerCorsConfiguration("/**", config);
-        return new CorsFilter(source);
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
     }
 
     @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+    protected CorsConfigurationSource CorsConfigurationSource() {
+        return request -> {
+            CorsConfiguration corsConfig = new CorsConfiguration();
+
+            corsConfig.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));
+            corsConfig.setExposedHeaders(Collections.singletonList("Authorization"));
+            corsConfig.setAllowedHeaders(Collections.singletonList("*"));
+            corsConfig.setAllowedMethods(Collections.singletonList("*"));
+            corsConfig.setAllowCredentials(true);
+            corsConfig.setMaxAge(3600L);
+
+            return corsConfig;
+        };
     }
 }

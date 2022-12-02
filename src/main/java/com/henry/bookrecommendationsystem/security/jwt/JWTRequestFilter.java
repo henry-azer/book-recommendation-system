@@ -43,7 +43,7 @@ public class JWTRequestFilter extends OncePerRequestFilter {
                 outputStream.flush();
             } else {
                 try {
-                    jwtAuthenticationUtil.verifyAccessTokenExpiration(jwt);
+                    // jwtAuthenticationUtil.verifyAccessTokenExpiration(jwt);
                     String email = jwtAuthenticationUtil.getAccessTokenUserEmail(jwt);
                     UserDetails userDetails = jwtUserDetailsService.loadUserByUsername(email);
                     UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, userDetails.getPassword(), userDetails.getAuthorities());
